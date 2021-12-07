@@ -27,5 +27,20 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Merge JSON files into `ordered_output.json`
         run: |
-          cd _data
-          ./merge_json.sh
+          ./_data/merge_json.sh
+          
+      - name: Commit file
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
+          git add ./_data/ordered_output.json
+          echo "::set-output name=push::true"
+      
+      - name: Push changes
+        if: steps.commit.outputs.push == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+          

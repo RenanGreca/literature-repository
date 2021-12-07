@@ -1,9 +1,25 @@
-{%- if include.value -%}
-    <td style="background-color: #99CC99;">
+{%- if include.value == "TRUE" or include.value == "X" -%}
+    <td style="background-color: #99cc99;">
         ✓
     </td>
-{%- else -%}
-    <td style="background-color: #FF9999;">
+{%- endif -%}
+{%- if include.value == "FALSE" -%}
+    <td style="background-color: #ff9999;">
         ✗
+    </td>
+{%- endif -%}
+{%- if include.value == "N/A" -%}
+    <td>
+        N/A
+    </td>
+{%- endif -%}
+{%- if include.value == "MAYBE" -%}
+    <td style="background-color: #ffff99;">
+        ?
+    </td>
+{%- endif -%}
+{%- if include.value == "" -%}
+    <td>
+        
     </td>
 {%- endif -%}

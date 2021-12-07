@@ -71,27 +71,29 @@ layout: default
         </tr>
       </thead>
       <tbody>
-        {%- for page in site.papers -%}
-          <tr>
-            <td>{{ page.year }}</td>
-            <td>{{ page.authors }}</td>
-            <td><a href="{{ page.url | relative_url }}">{{ page.title }}</a></td>
-            <td style="width:2px; background-color: #4f4f4f;"></td>
-            {%- include checkmark.html value=page.tcp -%}
-            {%- include checkmark.html value=page.tcs -%}
-            {%- include checkmark.html value=page.tsr -%}
-            {%- include checkmark.html value=page.tsa -%}
-            <td style="width:2px; background-color: #4f4f4f;"></td>
-            {%- include checkmark.html value=page.ind_motivation -%}
-            {%- include checkmark.html value=page.ind_evaluation -%}
-            {%- include checkmark.html value=page.ind_author -%}
-            {%- include checkmark.html value=page.prac_feedback -%}
-            {%- include checkmark.html value=page.avai_tool -%}
-            {%- include checkmark.html value=page.put_practice -%}
-            <!-- <td>{{ page.approach }}</td>
-            <td>{{ page.metrics }}</td>
-            <td>{{ page.open_challenges }}</td> -->
-          </tr>
+        {%- for page in site.pages -%}
+          {%- if page.path contains 'papers' -%}
+            <tr>
+              <td>{{ page.year }}</td>
+              <td>{{ page.authors }}</td>
+              <td><a href="{{ page.url | relative_url }}">{{ page.title }}</a></td>
+              <td style="width:2px; background-color: #4f4f4f;"></td>
+              {%- include checkmark.html value=page.tcp -%}
+              {%- include checkmark.html value=page.tcs -%}
+              {%- include checkmark.html value=page.tsr -%}
+              {%- include checkmark.html value=page.tsa -%}
+              <td style="width:2px; background-color: #4f4f4f;"></td>
+              {%- include checkmark.html value=page.ind_motivation -%}
+              {%- include checkmark.html value=page.ind_evaluation -%}
+              {%- include checkmark.html value=page.ind_author -%}
+              {%- include checkmark.html value=page.prac_feedback -%}
+              {%- include checkmark.html value=page.avai_tool -%}
+              {%- include checkmark.html value=page.put_practice -%}
+              <!-- <td>{{ page.approach }}</td>
+              <td>{{ page.metrics }}</td>
+              <td>{{ page.open_challenges }}</td> -->
+            </tr>
+          {%- endif -%}
         {%- endfor -%}
       </tbody>
       
@@ -150,13 +152,13 @@ layout: default
 
   // $('#tableMD tfoot tr').appendTo('#tableMD thead');
 
-  $(document).ready( function () {
-    $('#tableMD').DataTable({
-      scrollX: true,
-      "columnDefs": [
-        { "searchable": false, "targets": [3,4,5,6,7,8,9,10,11,12,13,14] },
-        { "orderable" : false, "targets": [3,8] }
-      ]
-    })
-  });
+  // $(document).ready( function () {
+  //   $('#tableMD').DataTable({
+  //     scrollX: true,
+  //     "columnDefs": [
+  //       { "searchable": false, "targets": [3,4,5,6,7,8,9,10,11,12,13,14] },
+  //       { "orderable" : false, "targets": [3,8] }
+  //     ]
+  //   })
+  // });
 </script>

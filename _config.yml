@@ -25,17 +25,34 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: renangreca
-github_username:  renangreca
+github_username:  renangreca/literature-repository
 
 # Build settings
 # theme: minima
 plugins:
   # - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-datapage-generator
 
-collections:
-  papers: 
-    output: true
+# collections:
+#   - papers
+#     output: true
+    
+page-gen-dirs: true
+
+page_gen:
+  - data: secondary_data_json
+    template: post
+    dir: papers
+    name_expr: "record['bibtex']"
+    title: title
+    extension: md
+    debug: true
+  # - data: 'members'
+  #   template: 'profile'
+  #   name: 'name'
+  #   dir: 'people'
+  #   debug: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

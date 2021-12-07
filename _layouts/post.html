@@ -16,19 +16,17 @@ layout: default
         {%- endif -%}</p>
     </header>
 
-    <h2>MD version</h2>
+    <!-- <h2>Relevant information</h2> -->
     <table>
       <tr>
         <th>Year</th>
         <th>Authors</th>
-        <th>Title</th>
         <th>Publisher</th>
         <th>DOI</th>
       </tr>
         <tr>
           <td>{{ page.year }}</td>
           <td>{{ page.authors }}</td>
-          <td>{{ page.title }}</td>
           <td>{{ page.publisher }}</td>
           <td><a href="{{ page.doi }}">{{ page.doi }}</a></td>
           <!-- <td>{{ paper.Abstract }}</td> -->
@@ -68,6 +66,17 @@ layout: default
         {%- include checkmark.html value=page.put_practice -%}
       </tr>
     </table>
+    
+    <table>
+      <tr>
+        <th>Experiment subject(s)</th>
+        <th>Industrial Partner</th>
+      </tr>
+      <tr>
+        <td>{{ page.exp_subjects }}</td>
+        <td>{{ page.ind_partner }}</td>
+      </tr>
+    </table>
 
     <table>
       <tr>
@@ -90,7 +99,7 @@ layout: default
 
     <h2>Abstract</h2>
     <div class="post-content e-content" itemprop="articleBody">
-      {{ content }}
+      {{ page.abstract }}
     </div>
 
     {%- if site.disqus.shortname -%}

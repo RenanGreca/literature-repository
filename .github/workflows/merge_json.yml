@@ -36,6 +36,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
           git add ./_data/ordered_output.json
+          git commit -m "Updated ordered_output.json"
           echo "::set-output name=push::true"
       
       - name: Push changes

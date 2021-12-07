@@ -41,7 +41,7 @@ plugins:
 page-gen-dirs: true
 
 page_gen:
-  - data: secondary_data_json
+  - data: ordered_output
     template: post
     dir: papers
     name_expr: "record['bibtex']"

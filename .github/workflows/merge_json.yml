@@ -27,7 +27,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Merge JSON files into `ordered_output.json`
         run: |
-          ./_data/merge_json.sh
+          jq -s '.' ./_data/jsons/*.json > ./_data/output.json
+          jq 'sort_by(.date|split("-")|map(tonumber))' ./_data/output.json > ./_data/ordered_output.json
           
       - name: Commit file
         id: commit

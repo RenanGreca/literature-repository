@@ -1,0 +1,132 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="wrapper">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+  </div>
+
+  <!-- <h2>MD version</h2> -->
+  <div style="margin: 0 20px;">
+    <table id="tableMD" class="hover stripe">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Authors</th>
+          <th>Title</th>
+          <th style="width:2px !important; background-color: #4f4f4f; padding: 0;"></th>
+          <th>TCP</th>
+          <th>TCS</th>
+          <th>TSR</th>
+          <th>TSA</th>
+          <th style="width:2px; background-color: #4f4f4f; padding: 0;"></th>
+          <th>Realistic Motivation</th>
+          <th>Realistic Evaluation</th>
+          <th>Industrial Author</th>
+          <th>Practitioner Feedback</th>
+          <th>Available Tool</th>
+          <th>Put into Practice</th>
+          <!-- <th>Approach</th>
+          <th>Metrics</th>
+          <th>Open Challenges</th> -->
+          <!-- <th>Abstract</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        {%- for page in site.pages -%}
+          {%- if page.path contains 'primaries' -%}
+            <tr>
+              <td>{{ page.year }}</td>
+              <td>{{ page.authors }}</td>
+              <td><a href="{{ page.url | relative_url }}">{{ page.title }}</a></td>
+              <td style="width:2px; background-color: #4f4f4f;"></td>
+              {%- include checkmark.html value=page.tcp -%}
+              {%- include checkmark.html value=page.tcs -%}
+              {%- include checkmark.html value=page.tsr -%}
+              {%- include checkmark.html value=page.tsa -%}
+              <td style="width:2px; background-color: #4f4f4f;"></td>
+              {%- include checkmark.html value=page.ind_motivation -%}
+              {%- include checkmark.html value=page.ind_evaluation -%}
+              {%- include checkmark.html value=page.ind_author -%}
+              {%- include checkmark.html value=page.prac_feedback -%}
+              {%- include checkmark.html value=page.avai_tool -%}
+              {%- include checkmark.html value=page.put_practice -%}
+              <!-- <td>{{ page.approach }}</td>
+              <td>{{ page.metrics }}</td>
+              <td>{{ page.open_challenges }}</td> -->
+            </tr>
+          {%- endif -%}
+        {%- endfor -%}
+      </tbody>
+      
+    </table>
+  </div>
+
+
+  
+  <!-- {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%} -->
+
+</div>
+
+<script>
+  // $('#tableMD tfoot th').each( function () {
+  //     var title = $(this).text();
+  //     $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+  // } );
+  // $(document).ready( function () {
+  //   $('#tableMD').DataTable({
+  //     scrollX: true,
+  //     initComplete: function () {
+  //       // Apply the search
+  //       this.api().columns().every( function () {
+  //         var that = this;
+
+  //         $( 'input', this.footer() ).on( 'keyup change clear', function () {
+  //           if ( that.search() !== this.value ) {
+  //             that
+  //               .search( this.value )
+  //               .draw();
+  //           }
+  //         } );
+  //       } );
+  //     }
+  //   });
+  // } );
+
+  // $('#tableMD tfoot tr').appendTo('#tableMD thead');
+
+  // $(document).ready( function () {
+  //   $('#tableMD').DataTable({
+  //     scrollX: true,
+  //     "columnDefs": [
+  //       { "searchable": false, "targets": [3,4,5,6,7,8,9,10,11,12,13,14] },
+  //       { "orderable" : false, "targets": [3,8] }
+  //     ]
+  //   })
+  // });
+</script>

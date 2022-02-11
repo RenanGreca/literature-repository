@@ -1,0 +1,402 @@
+Core metadata,,,Additional metadata,,,,,,,,Our notes,,,Quantitative/statistical data,,,,,,,,,,,,Findings,,,,,,Relevant to our RQs,,,,
+Year,Authors,Title,Abstract,Published in,Publisher,Source,bibtex,doi,date,,Antonia/Breno,Renan,,RT challenge,TCP,TCS,TSR,TSA,Paper count,Number of papers,Years covered,Systematic,Systematic,RQs,,Motivation,Approaches,Evaluation Metrics,Results and conclusions,Open challenges,,Matching RQs,Mention to Orchestration,Applicability concerns,Matching future work,
+2016,"Rosero, Raúl H.; Gómez, Oomar S.; Rodríguez, Glen",15 Years of Software Regression Testing Techniques - A Survey,"Software regression testing techniques verify previous functionalities each time software modifications occur or new characteristics are added. With the aim of gaining a better understanding of this subject, in this work we present a survey of software regression testing techniques applied in the last 15 years; taking into account its application domain, kind of metrics they use, its application strategies and the phase of the software development process where they are applied. From an outcome of 460 papers, a set of 25 papers describing the use of 31 software testing regression techniques were identified. Results of this survey suggest that at the time of applying a regression testing techniques, metrics like cost and fault detection efficiency are the most relevant. Most of the techniques were assessed with instrumented programs (experimental cases) under academic settings. Conversely, we observe a minimum set of software regression techniques applied in industrial settings, mainly, under corrective and maintenance approaches. Finally, we observe a trend using some regression techniques under agile approaches. © 2016 World Scientific Publishing Company.",International Journal of Software Engineering and Knowledge Engineering,World Scientific,Query,rosero_15_2016,10.1142/S0218194016300013,2015-06-25,,"Even though the secondary study is not well-documented, I would maintain this as they make some relevant conclusions.
+1) from RQ2 they observed the folliwng metrics: 20 out of the 25 papers identified (80%) mainly consider the following metrics: relative efficiency on fault detection [29, 35, 38, 46, 43, 49, 28, 21, 39, 50] and accuracy [47, 40, 37, 31, 32, 44, 36, 39, 50, 51]. Six papers (24%) discuss reduction costs [38, 19, 53, 20, 32, 45] three
+2) from RQ4, ""we observed that only 4 of papers (16%) have experimented in industrial context [47, 40, 37, 51],","Here the authors aim to get an overview of the development of RT research since the year 2000. They look for techniques covering several of the challenge and list 25 papers. One key takeaway is that only four of these papers had experiments with large open-source or industrial projects. They list several different approaches authors use to tackle RT challenges, and note the increasing trend of AI-based techniques. Note: the PDF I read shows the date as June 30, 2015. We need to see if the publication date actually fits within our criteria.",,"Minimization, selection, prioritization, optimization",X,X,X,,25,25 (out of 460 found),2000-2014,,"No, the survey process is not well documented.","RQ1: What RQ techniques have been documented?
+
+RQ2: What metrics are often used in RT?
+
+RQ3: What are the strategies for implementing RT techniques?
+
+RQ4: (in) What context are RT techniques applied?
+
+RQ5: (on) What phase of software development are RT techniques used?",,Provide overview of RT techniques over 15 years. Very generic goal.,"For TSM:
+- Heuristics-based.
+
+For RTS:
+- Graph-, dependency- or UML-based;
+- Model-based;
+- Heuristics-based;
+- Based on historical data;
+- Based on fault detection;
+- Modifications-based.
+
+For TCP:
+- Based on fault detection;
+- Historical and probabilistic;
+- Model-based
+- Dynamic analysis and natural language;
+- Graphs-, dependency- or UML-based;
+- Heuristics-based.
+
+Also include RTO=Rgre Test Optimization (? to do what?):
+- based on fuzzy logic
+- based on heuristic","- Fault detection ability;
+- Accuracy;
+- Selection time;
+- Implementation time.
+--> see also summary in notes (column H)","- Selection is predominant;
+- AI-based techniques are becoming more popular;
+- Techniques are usually based on source code, historical test data, test cases, heuristics, or AI approaches;
+- Only 16% of papers experimented in industrial context;
+- Results are not always reliable.","- Small number in agile context;
+- Only controlled academic experiments;
+- Lack of RT techniques applied in industry;
+- Industry might be reluctant to invest in RT.",,"- Clearly RQ2, regarding the metrics.
+- RQ4 is also relevant since it considers whether the technique was evaluated in realistic scenarios.",None,"Not exactly, but they notice some details that are holding back the application of the techniques, such as the programs used for evaluation. They look for the considered studies where the approaches have been evaluated, and in most cases they observe that the technique is evaluated on small, academic programs. Exceptions include: [39] applied on an ""industrial lab"", but the title at least does not seem about RT, to be checked; [40] --- [47] for prioritization.",Need for more RT techniques applied in industry.," "
+2016,"Do, Hyunsook",Recent advances in regression testing techniques,"Software systems and their environment change are continuous. They are enhanced, corrected, and ported to new platforms. These changes can affect a system adversely, thus software engineers perform regression testing to ensure the quality of the modified systems. Regression testing is an integral part of most major software projects, but as projects grow larger and the number of tests increases, performing regression testing becomes more costly. To address this problem, many researchers and practitioners have proposed and empirically evaluated various regression testing techniques, such as regression test selection, test case prioritization, and test suite minimization. Recent surveys on these techniques indicate that this research area continues to grow, heuristics and the types of data utilized become diverse, and wider application domains have been considered. This chapter presents the current status and the trends of three regression testing techniques and discusses recent advances of each technique.",Advances in Computers,Elsevier,Backward,do_recent_2016,10.1016/bs.adcom.2016.04.004,2016-05-10,,"Informal secondary and also tertiary (referring to [5] C. Catal, D. Mishra, Test case prioritization: a systematic mapping study, Softw. Qual. J. 21 (2013) 445–478.
+[6] E. Engstrom, P. Runeson, M. Skoglund, A systematic review on regression test selection techniques, Inform. Softw. Technol. 52 (1) (2010) 14–30.
+[7] S. Yoo, M. Harman, Regression testing minimisation, selection and prioritisation : a survey, 22 (2) (March 2012).)
+In writing the paper, we could go into details about the metrics she summarizes","This is a very general overlook of RT techniques after 2010. It provides a good introduction to the topic of RT, but has little discussion on upcoming challenges. It does, however, briefly mention the technology transfer gap from academia to industry. This is a book chapter, correct?",,"Minimization, selection, prioritization, optimization",X,X,X,,12,"12 (4 for each RTS, TCP, RTM) ",2010-2016,,"No, the author seems to have selected papers from intuition and expertise.",n/a,,"Discuss advancements in RT research, accessible to readers from other fields of computer science.","For RTS:
+- Firewall;
+- Graph walking;
+- Data-flow analysis;
+- Model-based;
+- Integer programming;
+- Symbolic execution;
+- Slicing.
+
+For TCP:
+- Code coverage;
+- History;
+- Requirements;
+- Model-based;
+- Human-based;
+- Interatcion;
+- Probabilistic;
+- Distribution;
+- Cost-aware.
+
+For TSM:
+- Code coverage;
+- Model-based;
+- Graph-based.","For RTS:
+- no. of selected tests;
+- Reduction rate;
+- Testing time;
+- Precision/recall;
+- Total time;
+- Cost-benefit analysis.
+
+For TCP:
+- APFD;
+- APFDc;
+- NAPFD;
+- Most likely relative position;
+- Coverage effectiveness;
+- Cost models similar to the ones from RTS.
+
+For TSM:
+- Reduction rate;
+- Loss of fault detection ability;
+- Loss of code coverage;
+- Execution time.","- Most early studies in the field used the Siemens programs as benchmark; researchers should use SIR instead.
+- Recently, more research is focusing on industrial programs, or open source programs of differenty types.
+- The trend is increase variety in algorithmic techniques and input sources, as they have different pros and cons.","- Gap in technology transfer to industry;
+- Techniques must be developed considering industrial testing environments.",,n/a,None,"No, but mentions technology transfer gap in the conclusions. After observing that early research focused on small program as the Siemens suite, this is the final conclusion: ""While there is some evidence that techniques are being used in practice, it is also noted that there is a gap in technology transfer to industry [1]. In order for regression testing techniques and methodologies to be useful in industry and to be transferred faster into practice, they must be developed by considering the context factors related to industrial testing environments and evaluated by using the appropriate assessment methodologies.""",The bottom-line conclusion of this work is the gap between the techniques developed in academia and the ones used in industry.,
+2016,"Hao, Dan; Zhang, Lu; Mei, Hong",Test-case Prioritization: Achievements and Challenges,"Test-case prioritization, proposed at the end of last century, aims to schedule the execution order of test cases so as to improve test effectiveness. In the past years, test-case prioritization has gained much attention, and has significant achievements in five aspects: prioritization algorithms, coverage criteria, measurement, practical concerns involved, and application scenarios. In this article, we will first review the achievements of test-case prioritization from these five aspects and then give our perspectives on its challenges.",Frontiers of Computer Science,Springer,Backward,hao_test-case_2016,10.1007/s11704-016-6112-3,2016-06-29,,"Informal secondary study, they classify studies over 5 criteria: coverage criterion, algorithm, metrics, constraint, application scenario. Relevant for us could be the ""practical constraints"", which include test time budget and fault severity","This paper is about prioritization techniques, covering the most common types of criteria used for prioritization, algorithms and measurement metrics for evaluation. They mention the challenge of evaluating techniques on realistic software (i.e. not small benchmarks or toy examples), albeit briefly. Ultimately, it provides a decent overview of the topic without focusing on any particular challenge, nor does it discuss shortcomings of the reviewed papers.",,Prioritization,X,,,,27,27,1999-2016,,"No, it is not clear how the papers were selected.",n/a,,"Review advancements in the rapidly advancing field of TCP, and discuss perspectives on the remaining challenges.","- Greedy strategies: additional coverage per unit, total or additional coverage;
+- Metaheuristic search: hill climbing and genetic algorithms;
+- Machine learning;
+- Integer linear programming.
+
+Also mentions model-based and fault-based (they do not provide a clear classification actually)","- APFD;
+- APFDc;
+- APXC (structural coverage);
+- APSC (statement coverage);
+- APMC (method coverage);
+- APBC (block coverage);
+- NAPFD.","- There is a disconnect between the ultimate goal of TCP (fault detection) and intermediate goals (such as code coverage).
+- Most of the literature uses APFD.
+- Obtaining the information needed for a technique to work is an additional cost.
+- Most early work used only Siemens programs, now grep and gzip are also common.
+- Few works evaluate against evolving software. According to [55], changes in source code rarely affect prioritization results, but changes in test cases often do.
+- Techniques are often evaluated against small programs, which do not highlight the benefits of prioritization.","- A measurement to address multiple practical constraints is needed;
+- Cost of obtaining required information (i.e. coverage);
+- Evaluations are performed on small programs;
+- Techniques do not consider practical concerns;
+- Consider small test suites with long-running tests.",,n/a,None,"Some mention of challenges. In the synthesis from the studies, they summarize among main challenges ahead the need for more useful metrics, as well as lack of evaluation of techniques in real world practical applications scenarios. ",Issues related to the practical concerns and need of better measurement metrics.,
+2017,"Kazmi, Rafaqut; Jawawi, Dayang N. A.; Mohamad, Radziah; Ghani, Imran",Effective Regression Test Case Selection: A Systematic Literature Review,"Regression test case selection techniques attempt to increase the testing effectiveness based on the measurement capabilities, such as cost, coverage, and fault detection. This systematic literature review presents state-of-the-art research in effective regression test case selection techniques. We examined 47 empirical studies published between 2007 and 2015. The selected studies are categorized according to the selection procedure, empirical study design, and adequacy criteria with respect to their effectiveness measurement capability and methods used to measure the validity of these results. The results showed that mining and learning-based regression test case selection was reported in 39% of the studies, unit level testing was reported in 18% of the studies, and object-oriented environment (Java) was used in 26% of the studies. Structural faults, the most common target, was used in 55% of the studies. Overall, only 39% of the studies conducted followed experimental guidelines and are reproducible. There are 7 different cost measures, 13 different coverage types, and 5 fault-detection metrics reported in these studies. It is also observed that 70% of the studies being analyzed used cost as the effectiveness measure compared to 31% that used fault-detection capability and 16% that used coverage.",Computing Surveys,ACM,Backward,kazmi_effective_2017,10.1145/3057269,2017-05-27,,"very relevant although focusing only on selection.
+we could grab the idea of showing the data collected for each RQ as in their Table VI.","A robust review on RTS, considering the common pitfalls in the surveyed works. Is the framework in pg 7 useful to us?",,Selection,,X,,,47,47,2007-2015,X,Yes; well documented,"RQ1: What is the state-of-the-art research in test case selection teschniques in software regression test case selection?
+RQ1.1: What types of RTS techniques are in practice for controlled experimentations?
+RQ1.2: At what test levels are these studies conducted?
+RQ1.3: In what types of application domains/enviroments are these studies conducted? What types of faults are they focused on?
+
+RQ2: How were the empirical studies designed and conducted?
+RQ2.1: How are the empirical studies designed for test case selection techniques?
+RQ2.2: What types of datasets/objects/artifacts were used for the empirical studies?
+
+RQ3: What empirical evidence is available for the cost, coverage and fault based effectiveness of RTS techniques?
+RQ3.1: What empirical evidence is available for the cost or cost effectiveness?
+RQ3.2: Is it possible to collect some empirical evidence on the effectiveness of RTS techniques?
+RQ3.3: What types of evaluation methods were used to verify the study results?",,Not clear,"- Mining and learning;
+- Model-based;
+- Slicing;
+- Control flow graph;
+- Oracle-based;
+- Firewall.","- Measuring cost (i.e. compilation time);
+- Test suite size;
+- Testing time;
+- Defect discovery time;
+- Bounded execution time;
+- Cost of each test case;
+- Selection time.","- Ideas of test case classification and safe regression testing.
+- New trends (CI, cloud, etc) pose different challenges to RT.
+- Mining and learning is popular, but have several drawbacks.
+- Coverage, cost or fault detection not sufficient alone.
+- Consider coverage granularity.
+- Focus should be on fault detection, not code coverage.
+- Evaluations should be performed with artifact repositories or open-source software.
+- Focus on measurable aspects of RT.
+- Need of more statistical methods.
+- Mutation score might replace coverage adequacy.","- Consider trade-offs between current techniques and mining/learning ones.
+- Design a general-purpose evaluation technique for RTS.
+- Empirical study design guidelines are not mature;
+- Investigate multi-criteria cases with statistical methods;
+- Determine relationship between cost, coverage and fault-detection abilities.",,"- RQ2.2 as it considers the software used for technique evaluation.
+- RQ3.1 as it discusses the cost measures used for comparing tools and determining efficiency.",None; the abstract suggests that only RTS is used for evolving software.,"No, only tangential when they talk about size and applicaiton domain.",n/a,
+2018,"Mukherjee, Rajendrani; Patnaik, K. Sridhar",A survey on different approaches for software test case prioritization,"Testing is the process of evaluating a system by manual or automated means. While Regression Test Selection (RTS) discards test cases and Test Suite Minimization (TSM) shows diminution in fault detection rate, Test Case Prioritization (TCP) does not discard test cases. Test Case Prioritization techniques can be coverage or historical information based or model based. It can also be cost-time aware or requirement-risk aware. GUI/Web applications need special prioritization mechanism. In this paper, 90 scholarly articles ranging from 2001 to 2018 have been reviewed. We have explored IEEE, Wiley, ACM Library, Springer, Taylor & Francis and Elsevier database. We have also described each prioritization method with their findings and subject programs. This paper includes a chronological catalogue listing of the reviewed papers. We have framed three research questions which sum up the frequently used prioritization metrics, regularly used subject programs and the distribution of different prioritization techniques. To the best of our knowledge, this is the first review with a detail report of the last 18 years of TCP techniques. We hope this article will be beneficial for both beginners and seasoned professionals.",Journal of King Saud University - Computer and Information Sciences,Elsevier,Backward,mukherjee_survey_2018,10.1016/j.jksuci.2018.09.005,2018-10-03,,"they mention they have searched in IEEE, Wiley, ACM, Springer, Taylor & Francis, Elsevier, however they do not provide a string for the query and do not provide details for the search: we found ""many"" papers of which we selected 90. A total of 90 papers only in RT over 18 years seems very limited, thus their process appears not credible. They mention that they have at least 5 papers for each technique, which does not inspire confidence.
+Hence wrt this survey we can argument they are not systematic, and may have missed important studies, however their Table 2 and 3 seem interesting for our RQs as well","This paper has a robust review of TCP techniques over a broad period of time. Although it doesn't have a specific goal, RQ1 and RQ2 are relevant to us. I liked how the information is organized. Tables 2 and 3 are particularly interesting considering what we want to extract in our review. I think they don't do much to answer their RQs, the information is there but there is no discussion or elaboration about what it means and what are the challenges associated with it. The authors don't focus on industrial/real-world needs, but do note that the status quo metrics and evaluations might be insufficient.
+
+Their definition of ""approach"" seems to conflate objective (cost, coverage), input (history, model-based) and subject program (GUI/Web, real-world).",,Prioritization,X,,,,90,90,2001-2018,X,"Yes, although it does not report the search query and how they arrived at 90 papers.","RQ1: Which metrics are used for TCP?
+
+RQ2: What are the frequently used subject programs in prioritization studies?
+
+RQ3: Which prioritization methods are commonly explored and what are their proportion?",,Present a detailed report of 18 years of TCP and determine the utility and popularity of certain prioritization methods.,"- Coverage-aware;
+- Historical;
+- Cost cognizant;
+- Time-aware;
+- Requirement and risk-oriented;
+- Model-based.
+
+also 
+-GUI/web application focused
+- other","- APFD;
+- APFDc;
+- NAPFD;
+- Savings factor (SF);
+- Coverage effectiveness (CE);
+- Convergence index (CI);
+- Average severity of faults detected (ASFD);
+- Most likely relative position (RP);
+- Average percentage of damage prevented (APDP).","- APFD most used; APFDc, NAPFD etc. also valuable.
+- SIR is valuable for evaluation subjects.
+- Coverage-aware is predominant, followed by requirement-based methods; model-based is increasing.","- Few techinques evaluated on real-world software systems;
+- Effect of alteration of test suite on TCP efficacy;
+- Coverage-less techniques should be explored;
+- Static-dynamic combined techniques;
+- TCP based on program changes;
+- Software product line related TCP.",,Both RQ1 and RQ2 match our needs regarding metrics and subject programs.,"None; in fact the abstract seems to hint of a rivalry between RTS and TCP.
+
+- actually in the conclusions they mention that ``Many researchers have addressed the effect of source code modification on test case prioritization, however the study regarding the alteration (augmentation, deletion etc.) in test suite level needs more exploration."" They also refer to using modification for prioritization. This may seem somehow related to one vision for orchestration","No, but observes that most techniques are evaluated with a small set of Java or C programs listed in table 3. Some comments about primary studies looking at cost or time budget are included.",Subject programs.,
+2018,"Bajaj, Anu; Sangwan, Om Prakash",A survey on regression testing using nature-inspired approaches,"Efficient regression testing plays an important role for organizations that have large investment in active, ever-changing software development. Efficiency can be obtained by optimizing the test cases as it provides a balance between the safety and precision. Many optimization techniques from various domains have been applied in regression testing for optimizing the search and the solutions. But nature-inspired algorithms are gaining more popularity now a days as the algorithms are more efficient for complex problems. In this paper, we have explored the research work done by various researchers on regression testing using nature-inspired approaches. It is found that biology inspired computation e.g. genetic algorithm have been widely used in regression testing optimization with the intent of maximizing fault or code coverage in minimum time. It is also concluded that nature-inspired approaches have great potential to optimize regression testing problems.",4th International Conference on Computing Communication and Automation (ICCCA),IEEE,Forward,bajaj_survey_2018,10.1109/CCAA.2018.8777692,2019-07-29,,"scope of the secondary study is overview of ""nature inspired algorithms"" bu it is totally unclear how they performed the seleciton of con sidered prmary studies",,,"Prioritization, selection, minimization",X,X,X,,15,15,1999-2016,,"not at all, no mention of why they selected this set of 15 papers",n/a,,"scope of the secondary study is very generic, they aim at overviewing use of  ""nature inspired algorithms"" saying vaguely that ""traditional"" approaches are not efficient, and that the RT problem (which one?) is NP-hard, so it can be tackled by nature-inspired algorithms.","some Genetic and Evolutionary approaches, ant-colony opt, swarm opt., etc
+They classify the techniques among: Physics/Chemistry Inspired,  Biology Inspired, and Social Phenomenon Inspired","They summarize that most used metrics are: 
+total coverage, 
+APFD, 
+execution cost, and 
+reduced percentage of test suite size
+In the paper a table is included that give a detailed report of metrics in each study","Genetic algorithms and biology-inspired are the most frequently used, and provide effective approaches","Lack of standard benchmarking data
+How to choose the approach as there are many involved factors",,The survey does not include explicit RQs.,"No mention, on the contrary the survey of studies is divided into three distinct sections for minimization, selection and prioritization","they do not seem concerned at all with applicavbility, their scope is academic research",Future work is very briefly mentioned in the conlusion section and will address more detailed studies for understanding which algorithm is better,
+2018,"Rehman Khan, Saif Ur; Lee,  Sai Peck; Javaid, Nadeem; Abdul, Wadood","A systematic review on test suite reduction: Approaches, experiment’s quality evaluation, and guidelines","Regression testing aims at testing a system under test (SUT) in the presence of changes. As a SUT changes, the number of test cases increases to handle the modifications, and ultimately, it becomes practically impossible to execute all of them within limited testing budget. Test suite reduction (TSR) approaches are widely used to improve the regression testing costs by selecting representative test suite without compromising effectiveness, such as fault-detection capability, within allowed time budget. The aim of this systematic review is to identify state-of-the-art TSR approaches categories, assess the quality of experiments reported on this subject, and provide a set of guidelines for conducting future experiments in this area of research. After applying a two-facet study selection procedure, we finalized 113 most relevant studies from an initial pool of 4230 papers published in the field of TSR between 1993 and 2016. The TSR approaches are broadly classified into four main categories based on the literature including greedy, clustering, search, and hybrid approaches. It is noted that majority of the experiments in TSR do not follow any specific guidelines for planning, conducting, and reporting the experiments, which may pose validity threats related to their results. Thus, we recommend conducting experiments that are better designed for the future. In this direction, an initial set of recommendations is provided that are useful for performing well-designed experiments in the field of TSR. Furthermore, we provide a number of future research directions based on current trends in this field of research.",IEEE Access,IEEE,Backward,rehman_khan_systematic_2018,10.1109/ACCESS.2018.2809600,2018-02-27,,"...4,230 potential papers were analyzed. Finally, 113 studies ..were selected .... Four main classes of TSR approaches were identified including greedy-based, clustering-based, search-based, and hybrid approaches according","Very robust and comprehensive review on test suite reduction. Clearly categorizes the data extracted, provides a framework for quality assessment of techniques and experiments, and gives recommendations for future research. Very mathematical approach to the analysis, with little to no discussion of practical applicability of results. RQ2 is somewhat meaningful to us.",,Reduction/minimization,,,X,,113,113 out of 2510 (non-duplicates),1993-2016,X,"yes, but they do not document the details of the selection process, only the initial and final numbers","RQ1: What type of TSR approaches have been proposed in existing literature and how can they be classified?
+
+RQ1.1: What are the various classifications of TSR approaches?
+
+RQ1.2: What are the commonalities and differences among approaches for each classification?
+
+RQ2: What is the overall quality of reported TSR experiments in the domain of regression testing?",,"classification of test reduction, because they say no previous systematic survey existed - most of the study is devoted to assess the quality of empirical studies by which the approaches are evaluated","TSR are classified as: Greedy, Clustering (similarity-based) and Search-based, as well as hybrid ","Fault Detection Capability (FDC)
+Percentage of Test Suite Reduction (PTSR)
+Fault Detection Loss (FDL)
+For scalability measures they report SUT size and number of test cases",One main conclusion is that TSR studies did not follow adequate criteria in the experiments and hence the authors of this survey build and propose some standard guidelines,Model-based TSR; evaluating TSR heuristics with cost-effectiveness and efficiency; comparing with consolidated benchmarks; industrial-strength datasets; comparative studies; branchmania situation; scalability with search algorithms,,no match,"no, the paper strictly focuses on reduction","No, only discusses cost metrics as worth pursuing and scalability as part of the quality assessment framework. What may be interesting is that they analyze the way approaches are evaluated and give recommendations, among which they also include a criterion about scalability.","Among their recommendations for future work they mention: studies should focus on industrial-strenght scope (as opposed to small benchmarks as SIR), and should target scalability, for which they see Search-based approach as the possible solution thanks to their intrinsic parallelism (note AB this is in fact done by Mark harman with sapienz...)",
+2019,"bin Ali, Nauman; Engström, Emelie; Taromirad, Masoumeh; Mousavi, Mohammad Reza; Minhas, Nasir Mehmood; Helgesson, Daniel; Kunze, Sebastian; Varshosaz, Mahsa",On the search for industry-relevant regression testing research,"Regression testing is a means to assure that a change in the software, or its execution environment, does not introduce new defects. It involves the expensive undertaking of rerunning test cases. Several techniques have been proposed to reduce the number of test cases to execute in regression testing, however, there is no research on how to assess industrial relevance and applicability of such techniques. We conducted a systematic literature review with the following two goals: firstly, to enable researchers to design and present regression testing research with a focus on industrial relevance and applicability and secondly, to facilitate the industrial adoption of such research by addressing the attributes of concern from the practitioners' perspective. Using a reference-based search approach, we identified 1068 papers on regression testing. We then reduced the scope to only include papers with explicit discussions about relevance and applicability (i.e. mainly studies involving industrial stakeholders). Uniquely in this literature review, practitioners were consulted at several steps to increase the likelihood of achieving our aim of identifying factors important for relevance and applicability. We have summarised the results of these consultations and an analysis of the literature in three taxonomies, which capture aspects of industrial-relevance regarding the regression testing techniques. Based on these taxonomies, we mapped 38 papers reporting the evaluation of 26 regression testing techniques in industrial settings. © 2019, The Author(s).",Empirical Software Engineering,Springer,Query,bin_ali_search_2019,10.1007/s10664-018-9670-1,2019-02-12,,"They have motivations very close to ours as they target ""relevance and applicability"" of research studies. However, with respect to our intent, we can say that:
+1) they apply a snowballing in August 2016, hence there is space for a newer secondary study in 2020, and
+2) they select studies that have conducted evaluation on industrial systems, which is not  per se a necessary and sufficient condition to industrial applicability???
+3) finally it seems they are interested to find a taxonomy (see their RQs)
+Also, they include only empirical assessment -- I think when positioning ourselves with respect to this we should say that we extend that tertiary study in many respects....broader coverage, broader meaning of applicability, focus on metrcis 
+When we will write related work in the secondary study, we should definitely look back to the related work of this survey ","This work is well-known to us and very relevant. The methodology is well-documented and, although not a systematic review, it is focused on a challenge related to our work, introducing a taxonomy for RT techniques. There is a focus on what are the actual problems in industry, rather than just the solutions proposed by academia.
+
+Two important details: 
+- Their ""need for a literature review"" questions might conflict with ours. We should carefully consider how to distinguish our work from this.
+- In related works, it mentions [Rosero et al. 2016] and [Kazmi at al. 2017], both of which are included here. This is a good sign that our review was thorough.",,"Selection, prioritization, minimization",X,X,X,,38,38 out of 1068,2002-2017,?,"Mixed: not a real search of literature, they make a snowball from a set of pilot studies; but the process applied is accurately described
+NOTE that among inclusion criteria they use ""large-scale"" measured as Locs of the SUT - so the exclude all papers that are not applied to large scale, which allows them to restrict from 1K+ to only 38","RQ1: How to describe an industrial regression testing problem?
+
+RQ2: How to describe a regression testing solution?
+
+RQ3: How does the current research map to such problem description?
+
+LRQ1: Have existing systematic literature reviews taken into consideration the industrial relevance and applicability of regression testing techniques?
+
+LRQ2: Are there sufficiente papers reporting an industrial evaluation fo regression testing techniques?",,"the motivation is to survey body of research in RT that is ""relavant"" to industry - however somehow all along the study it seems that in certain steps of the study ""industrial relevance"" is considered = large scale software, and this might have impacted the study - the specific goal is to create a taxonomy for establish communicaiton between academy and industry - Thus they do not aim to a comprehensive review of literature, but instead to create a taxonomy that other researchers should consider in describing their work.",Out of the 38 PS considered they classify 26 distinct techniques that are classified according to their taxonomy (Table 5 in the paper),"Classify the possible effects of improvement into 3 categories: coverage, efficiency&effectiveness, awareness. In turn, coverage mainly involved ""feature"" and ""combinatorial"": most papers considered code coverage, but this was considered not important by the practitiones. Eff&eff involved: test size reduction, test time reduction, improved precision, less time for fault detection, reduced resources, improved fault detection, also wrt severe ones, and reduced cost of failures. Finally awareness onl;y measured increased transparency",One important result for researchers is their Table 4 in which they introduce a taxonomy of relevant factors (validated by three senior testers from industry) classied in scope/context/effect/information. (I wonder whether in our secondary study we should take this into account when we classify primary studies?),coverage information is only partially relevant to practitioners; context information is neglected; focus should be on severe faults and cost reduction; address industrial context factors; study people-related factors,,"no, the RQs are different - (while we ask whether research work is relevant, they focus on how research work should be described for communicating to industry)",not taken into account,"Yes, it is central to the paper. They interview practitioners at various steps, and they select papers that conduct empirical evaluation in industrial context.","The two recommendations for researchers ""Report Addressed Context Factors in Industrial Evaluations"" and ""Study if andHow the Proposed Context Factors are Relevant"" I think is part of what we also address: context is only one ""facet"", we also consider this for ""effect"" and ""information"".",
+2019,"Bajaj, Anu; Sangwan, Om Prakash",A systematic literature review of test case prioritization using genetic algorithms,"Regression testing is the essential process of software maintenance and evolution phase of the software development life cycle for assuring the quality and reliability of updated software. Test case prioritization is the technique of regression testing to reduce the time and effort required for regression testing. Search-based algorithms are used to enhance the efficiency and effectiveness of the method. Among these search-based optimization algorithms, genetic algorithms are becoming more popular among researchers since the last decade. In this paper, we are doing a systematic literature review, i.e., a secondary study of test case prioritization using genetic algorithms. The objective of this review is to examine and classify the current state of use of the genetic algorithm in test case prioritization. In other words, to give a base for the advancement of test case prioritization research using genetic algorithms. With the use of the systematic literature review protocol, we selected the most relevant studies (20 out of 384) from the appropriate repositories by using a set of search keywords, inclusion/exclusion criteria and the quality assessment of studies. The data extraction and synthesis process and the taxonomic classification are used to answer the research questions. We also performed a rigorous analysis of the techniques by comparing them on research methodology, the prioritization method, dataset specification, test suite size, types of genetic algorithms used, performance metrics, and the validation criteria. The whole process took four months for comprehensive analysis and classification of primary studies. We observed that the parameter settings, the type of operators, the probabilistic rate of operators, and fitness function design have a significant impact on the quality of the solutions obtained. This systematic literature review yields that genetic algorithms have great potential in solving test case prioritization problems, and the area is open ...",IEEE Access,IEEE,Forward,bajaj_systematic_2019,10.1109/ACCESS.2019.2938260,2019-08-29,,"Very well written paper, we could take some inspiration for our structure.
+
+It is different as they only cover GA which amounted to just 20 PS, and do not explicitly consider industrial applicability although they look at program size and they mention that GA start being used in idnustry.
+
+As an aside note, they do not clearly refer to their own previous work (titled A survey on regression testing using nature-inspired approaches in Row 9 above)","Similar to row 20 (nature-inspired approaches), I think focusing on one kind of algorithm is not really relevant to us. Furthermore, there is no discussion on applicability aside from general suggestions. However the study is quite complete and the methodology is well-described. RQ2 and RQ4 are of some interest to us.",,Prioritization,X,,,,20,20,2006-2018,X,"yes, with thorough report, although they mention they did snowballing but this is not documented","RQ1: What is the research trend of GA applications in TCP techniques?
+
+RQ2: What kind of testing environment has been used in GA-based TCP?
+
+RQ3: How has GA been mapped to TCP?
+
+RQ4: How have researchers checked the validity/effectiveness of algorithms?
+
+RQ5: What is the significance of using GA in TCP?",,"They aim at identifying sota in using GA for TCP, no practical reason though","They consider all different types of approaches all centered on GA. The classification they make is among: simple GA, enhanced, two or more and NSGA, single or multiobjective GA (which is reflected in the fitness funtion), the different type of operators, what they cover among code, reqs, fault.","APFD, Fault detection capability, average percentage of element coverage (?never heard?), coverage.","More empirical research is needed, also in particular for setting the approach parameters
+The large majority has used coverage that may be an issue, they would rcommend more req coverage.
+They mention that works have used industrial application which are not available, and this may be a problem.
+Important: they notice that scalability should be investigated","Lack of empirical studies; more requirements-based TCP; industrial & hardly-reproducible vs open & unrealistic datasets; small number of case studies for validation; scalability; lack of standard tools; genetic algorithms; performance metrics (APEC, FDC, CE); statistical analysis",,"Their RQ4.1: which performance metrics? matches with our RQ2, but in their paper does not contain an emphasis on practice.","no mention at all, the work is purely on TCP","Very light, when they talk about need to study scalability","they mostly target more empirical studies, including also concerns for scalability which is the only match I can see",
+2020,"Prado Lima, Jackson A.; Vergilio, Silvia R.",Test Case Prioritization in Continuous Integration environments: A systematic mapping study,"Context: Continuous Integration (CI) environments allow frequent integration of software changes, making software evolution more rapid and cost-effective. In such environments, the regression test plays an important role, as well as the use of Test Case Prioritization (TCP) techniques. Such techniques attempt to identify the test case order that maximizes certain goals, such as early fault detection. This research subject has been raising interest because some new challenges are faced in the CI context, as TCP techniques need to consider time constraints of the CI environments. Objective: This work presents the results of a systematic mapping study on Test Case Prioritization in Continuous Integration environments (TCPCI) that reports the main characteristics of TCPCI approaches and their evaluation aspects. Method: The mapping was conducted following a plan that includes the definition of research questions, selection criteria and search string, and the selection of search engines. The search returned 35 primary studies classified based on the goal and kind of used TCP technique, addressed CI particularities and testing problems, and adopted evaluation measures. Results: The results show a growing interest in this research subject. Most studies have been published in the last four years. 80% of the approaches are history-based, that is, are based on the failure and test execution history. The great majority of studies report evaluation results by comparing prioritization techniques. The preferred measures are Time and number/percentage of Faults Detected. Few studies address CI testing problems and characteristics, such as parallel execution and test case volatility. Conclusions: We observed a growing number of studies in the field. Future work should explore other information sources such as models and requirements, as well as CI particularities and testing problems, such as test case volatility, time constraint, and flaky tests, to solve existing challenges and offer cost-effective approaches to the software industry. © 2020 Elsevier B.V.",Information and Software Technology,Elsevier,Query,prado_lima_test_2020,10.1016/j.infsof.2020.106268,2020-01-25,,"the focus is specifically in CI
+most used metrics appear Time for testing, and Faults Detected","Very focused on the continuous integration context. The mapping process is well-described and there are multiple images and tables clearly presenting the process and the findings. In particular, Table 5 introduces a nice schema for the classification of works based on goals, data source, testing problem and evaluation metrics. The research questions are very much geared towards TCPCI, so not directly interesting to us.
+
+Check: [Khatibsyarbini et al 2018], another potential work",,Test Case Prioritization in Continuous Integration environments (TCPCI),X,,,,35,35 (out of 818 -> 687 after removing duplicates),2009-2019,X,"Yes, very well designed and reported","RQ1.1: In which fora is the research on TCPI published?
+
+RQ1.2: How have the number and frequency of publications evolved over the years?
+
+RQ1.3: What are the main research groups?
+
+RQ2.1: What types of approaches are proposed?
+
+RQ2.2: What are the application contexts?
+
+RQ3.1: How have the approaches been evaluated?
+
+RQ3.2: What are the used evaluation measures?",,"The note that CI is increasingly used, and that it can impose difficulties on TCP, as ""search-based techniques or other ones that require extensive code analysis and coverage may be unfeasible due to the time constraints and the test budget for a build"". So they decided to survey the literature to understand if and how TCP has been adapted to specific CI constraints","notably they observe that for CI the most common type of approach is History-based, in particular failure and test execution history; they also make an observation that there is a trend towards more lightweight approaches, in previous years there were more studies on coverage or distribution based ... e.g. 50% of studies in 2017/18 are using history ","Most widely used measure is Time by which they collect different measures related to time (48%), followed by FD i.e., fault detected (33%), APFD (24%), APFDc (18%), Expense i.e. relative number of statement to be examined to locate the fault (15%), and NAPFD i.e. Normalized APFD (9%). ","They observe that CI poses constraints on TCP, as ""search-based techniques or other ones that require extensive code analysis and coverage may be unfeasible due to the time constraints and the test budget for a build""","Model-based prioritization, most reliable information source?, use of GPU, blockchain+ML, hyper-heuristics, TCP+fault localization, more programming languages, more industrial enviroments, more open science approaches, more NAPFD, more statistical test, more scalability, lack of a benchmark, CI+testing",,"Their RQ3.2 matches our RQ2. For the rest they do not explicitly ask whether the studies address industrial needs, however as the who,e survey focuses on problems posed by CI, I think there is a relation.",no because the studies only focus on TCP,"Somewhat; they mention scalability and limited use of industrial scenarios for evaluation. They observe that only very few studies evaluate the approach in industrial case studies.
+However it can be intersting for us what they report in Section 4.2.2 about application contexts used in the works; here they report the 10 industrial environment considered: Google, Cisco, ABB, Ericsson, etc.. plus other real-world problems","They conclude by saying that studies should evaluate generalizabilty and scalability, and also quickly mention several Realworld problems, ""such as complex and time-consuming testing, flaky tests, UI testing, parallelism, test case volatility, and multiple commits""",
+2020,"Hasnain, Muhammad; Ghani, Imran; Pasha, Muhammad Fermi; Lim, Chern Hong; Jeong, Seung Ryul",A Comprehensive Review on Regression Test Case Prioritization Techniques for Web Services,"Test Case Prioritization (TCP) involves the rearrangement of test cases on a prioritized basis for various services. This research work focuses on TCP in web services, as it has been a growing challenge for researchers. Web services continuously evolve and hence require reforming and re-execution of test cases to ensure the accurate working of web services. This study aims to investigate gaps, issues, and existing solutions related to test case prioritization. This study examines research publications within popular selected databases. We perform a meticulous screening of research publications and selected 65 papers through which to answer the proposed research questions. The results show that criteria-based test case prioritization techniques are reported mainly in 41 primary studies. Test case prioritization models, frameworks, and related algorithms are also reported in primary studies. In addition, there are eight issues related to TCP techniques. Among these eight issues, optimization and high effectiveness are most discussed within primary studies. This systematic review has identified that a significant proportion of primary studies are not involved in the use of statistical methods in measuring or comparing the effectiveness of TCP techniques. However, a large number of primary studies use 'Average Percentage of Faults Detected' (APFD) or extended APFD metrics to compute the performance of techniques for web services.
+",KSII Transactions on Internet and Information Systems (TIIS),Korean Society for Internet Information,Forward,hasnain_comprehensive_2020,10.3837/tiis.2020.05.001,2020-05-31,,"although it is not clear how they made the search, as the focus should be web services, but they have inclusion criterion as ""Studies which discuss any type of regression testing"".","I'm not entirely convinced by the quality of the work, but the findings seem reasonable enough. The authors consider evaluation metrics, the usage of statistical methods, and the research goals of TCP techniques geared towards web services.",,Prioritization,X,,,,65,65 (out of 2056),2001-2017,X,"Yes. The authors claim it is an SLR based on the
+recommended guidelines by Kitchenham and Charters.","RQ1: What approaches are proposed as a means to prioritize web service test cases?
+
+RQ2: How have the proposed web services TCP techniques been validated?
+
+RQ3: Are there statistical methods used in web service TCP techniques?
+
+RQ4: What issues related to TCP exist in regerssion testing, with respect to web services?",,"To investigate gaps, issues, and existing solutions related to test case prioritization for Web Services.","Authors highlight that coverage-based approaches have been widely used to address TCP.
+
+-Coverage-based
+-Session-based
+-Location-based
+-Similarity-based
+-Requirement-based
+-Flow graph-based
+-Risk-based
+-Technology-based","APFD (and its variations) is the most frequently used metric:
+- APFD
+- APFD-P
+- NAPFD
+- Extended APFDc
+- APFDD
+- FDR ?
+- HMFD ?
+- WPFD ?
+- TPFD ?
+
+Other metrics are available in Table 4:
+- MATLAB tool
+- Wsrbench
+- A C program tool
+- Average RP
+- Test cost
+- Test efficiency
+- Hamonic means
+- Code metrics
+
+Many of these make little sense on their own. We'd have to investigate each individual paper to understand the purpose of the metrics. However only two were used by more than one paper: APFD (22) and HMFD (2).","-Coverage-based TCP techniques have been greatly covered in primary studies
+
+-Most primary studies have mentioned that APFD is a primarily-applied metric, used to compute or compare the effectiveness of TCP approaches.
+
+-Statistical methods were employed in primary studies, including ANOVA analysis and descriptive statistics.
+
+-The authors consider that cost-overhead, optimization, and high effectiveness are essential issues related to web services TCP techniques","Overfitting, scalability, robustness, network faults, service integration, metrics aside from APFD",,RQ1 and RQ2 can be matched to our RQ3 (approaches and metrics),"No, the paper strictly focuses on TCP.","No, only brief mention of industrial needs in introduction/conclusion.","The authors advise researchers to give attention to some issues in future work: overfitting patch, scalability, robustness, network faults, and services integration
+
+Scalability is the only match I can see.
+
+The over-reliance on APFD is not mentioned as a future work direction.",
+2019,"Lou, Yiling; Chen, Junjie; Zhang, Lingming; Hao, Dan",A Survey on Regression Test-Case Prioritization,"Regression testing is crucial for ensuring the quality of modern software systems, but can be extremely costly in practice. Test-case prioritization has been proposed to improve the effectiveness of regression testing by scheduling the execution order of test cases to detect regression bugs faster. Since its first proposal, test-case prioritization has been intensively studied in the literature. In this chapter, we perform an extensive survey and analysis on existing test-case prioritization techniques, as well as pointing out future directions for test-case prioritization. More specifically, we collect 191 papers on test-case prioritization from 1997 to 2016 and conduct a detailed survey to systematically investigate these work from six aspects, i.e., algorithms, criteria, measurements, constraints, empirical studies, and scenarios. For each of the six aspects, we discuss the existing work and the trend during the evolution of test-case prioritization. Furthermore, we discuss the current limitations/issues in test-case prioritization research, as well as potential future directions on test-case prioritization. Our analyses provide the evidence that test-case prioritization topic is attracting increasing interests, while the need for practical test-case prioritization tools remains.",Advances in Computers,Elsevier,Related works [Alkawaz et al 2019],lou_survey_2018,10.1016/bs.adcom.2018.10.001,2018-12-14,," - Overviews criteria, algorithms, metrics, constraints, and application scenarios.
+ - 191 papers on test-case prioritization from 1997 to 2016","Quite extensive overview of TCP, more concerned of getting the big picture than focusing on the achievements of each surveyed paper. It gives descriptions of the general categories, algorithms, challenges, metrics, and scenarios related to TCP.",,Prioritization,X,,,,191,191,1997-2016,X,Yes. The analysis framework is presented nicely.,n/a,,"The motivation is very generic: to survey and analize existing TCP techniques, as well as pointing
+out future directions for TCP. The works are investigated in terms of six aspects: algorithms, criteria, measurements, constraints, empirical studies, and scenarios.","The TCP approaches are classified based on different categories:
+
+CRITERION:
+Structural, Model-Level, Fault-Related, Test Input-Based, Change Impact-Based, Risk, Similarity, Service History, Requirement
+
+PRIORITIZATION ALGORITHM:
+greedy algorithm, search-based algorithm, information-retrieval-based algorithm, integrate-linear-programming-based algorithm, machine-learning-based algorithm.
+
+APPLICATION SCENARIO:
+General TCP vs Version-Specific TCP"," - Most of the surveyed work uses APFD
+
+ - APFDc, APXC, NAPFD and RAPFD are variations of APFD
+
+ - Weighted gain of faults detected (WGFD): the idea is to weight and sum fault-detection rates of different test cases so as to define “fastness” in different testing scenarios
+
+ - Harmonic mean of the rate of fault detection (HMFD): to measure how quickly a prioritized TS can detect faults, independent from the size of TS.","While the topic of test case prioritization remains attractive to researchers the need for practical test case prioritization tools remains.
+
+Many studies do not consider important aspects while evaluating TCP: the use of real-world software as subjects, algorithm complexity, cost of collecting data, efficiency (these could also be cosidered as ""open challenges"")"," - Most of the widely used testing criteria are either less precise or costly
+
+ - Too much reliance on APFD (what about APFDc, TTFF, TTLF?)
+
+ - Algorithm complexity not considered
+
+ - Cost of collecting necessary data
+
+ - Lack of evaluation on real software with real faults
+
+- The efficiency measurement is mostly ignored in TCP
+
+ - Lack of available, effective and easy-to-use TCP tools.
+
+ - Intermediate vs ultimate goal",,The survey does not include explicit RQs.,None,"Subsection 9.2.2 ""Practical Values"" is dedicated to applicability concerns.
+
+The authors encourage researchers to investigate the TCP problem in real practical scenarios and provide practical tool supports.
+
+Other practical constraints mentioned: time, fault severity, hardware resources, and testing requirement priorities.",The authors explicitly mention the need for practical TCP tools; I would say this is aligned with our planned future work.,
+2018,"Khatibsyarbini, Muhammad; Isa, Mohd Adham; Jawawi, Dayang N. A.; Tumeng, Rooster",Test case prioritization approaches in regression testing: A systematic literature review,"Context
+Software quality can be assured by going through software testing process. However, software testing phase is an expensive process as it consumes a longer time. By scheduling test cases execution order through a prioritization approach, software testing efficiency can be improved especially during regression testing.
+
+Objective
+It is a notable step to be taken in constructing important software testing environment so that a system's commercial value can increase. The main idea of this review is to examine and classify the current test case prioritization approaches based on the articulated research questions.
+
+Method
+Set of search keywords with appropriate repositories were utilized to extract most important studies that fulfill all the criteria defined and classified under journal, conference paper, symposiums and workshops categories. 69 primary studies were nominated from the review strategy.
+
+Results
+There were 40 journal articles, 21 conference papers, three workshop articles, and five symposium articles collected from the primary studies. As for the result, it can be said that TCP approaches are still broadly open for improvements. Each approach in TCP has specified potential values, advantages, and limitation. Additionally, we found that variations in the starting point of TCP process among the approaches provide a different timeline and benefit to project manager to choose which approaches suite with the project schedule and available resources.
+
+Conclusion
+Test case prioritization has already been considerably discussed in the software testing domain. However, it is commonly learned that there are quite a number of existing prioritization techniques that can still be improved especially in data used and execution process for each approach.
+",Information and Software Technology,Elsevier,Related works [Prado Lima et al 2020],khatibsyarbini_test_2018,10.1016/j.infsof.2017.08.014,2017-09-01,,"Not top-quality, but the findings are organized and well-summarized. The focus is on TCP only.","Not particularly high-quality or well-motivated, but provides a good synthesis of the data, particularly in regards to the TCP approaches, the evaluation metrics and the evaluation artifacts. They give each paper a quality score, list the advantages and limitations, and the basic steps of the approaches.",,Prioritization,X,,,,80,"80 (out of 707)
+The abstract mentions 69 papers, but the authors refer to 80 studies throughout the paper.",1999-2016,X,Yes. Based on guidelines by Kitchenham and Achimugu.,"RQ1: What are the taxonomies of test case prioritization in regression testing?
+RQ1.1: What is the research trend of TCP techniques in regression testing?
+RQ1.2: What are the distributions of approaches in TCP techniques?
+
+RQ2: What are the differences in terms of approaches for each TCP technique?
+RQ2.1: What are the descriptions, strength, and limitations of existing prioritization approaches?
+RQ2.2: How were these approaches applied and how did they affect TCP results?
+
+RQ3: What are the processes involved in TCP in regression testing?
+
+RQ4: What are the evaluation metrics and suitable types of artifacts involved in TCP with the reasons for their creation?",,The motivation is very generic: to comprehend and review recent experimental evidence with respect to the most recent TCP approaches; to overview the trends and to provide in-depth discussions of the metrics used for evaluating TCP.,"Authors grouped the TCP approaches into seven main dimensions:
+-Coverage-based
+-Requirement-based
+-Risk-based
+-Search-based
+-Fault-based
+-History-based
+-Others-based (e.g., cost-aware, bayesian-network, topic model, multi-criteria, workflow)
+
+A description of each approach is provided in Table 10. Advantages and limitations are discussed in Table A4."," - APFD 51%
+ - Coverage Effectiveness (CE) 10%
+ - APFDc 9%
+ - Time execution 7%
+ - Others (Mostly variations of APFD) 23%"," - TCP approaches are still broadly open for improvements
+
+ - Each TCP approach has specific advantages and limitations
+
+ - Authors found that variations in the starting point of TCP process provide a different timeline and benefit; project managers should choose which approaches to use based on the project schedule and available resources.
+
+ - Search-based TCP is the most used method among the surveyed studies, followed by coverage-based TCP
+
+ - Implementation of artificial intelligence element has been a trend among researchers","-The data or information classification in TCP (requirement, system models, and source code) needs to be investigated further
+
+-The specific time frame for the execution process of TCP needs to be detailed out.
+
+-Early prioritization in the early stage of a system development life cycle needs to be further investigated
+
+-Human involvement in decision-making and estimation (human error), 
+
+-How does TCP support fault localization compared to TCS?",,RQ2 and RQ4 can be matched to our RQ3 (approaches and metrics),None,No,Future work is very briefly mentioned in the conclusion section and I could not identify any explicit match.,

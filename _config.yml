@@ -28,7 +28,7 @@ twitter_username: renangreca
 github_username:  renangreca/literature-repository
 
 # Build settings
-# theme: minima
+theme: minima
 plugins:
   # - jekyll-feed
   - jekyll-seo-tag

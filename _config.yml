@@ -21,7 +21,8 @@
 title: Software Testing in Practice Literature Review
 email: renan.greca@gssi.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Live repository of the literature review published in [...].
+  Live repository of the literature review published in "State of Practical Applicability of Regression Testing Research: 
+A Live Systematic Literature Review".
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: renangreca
@@ -41,13 +42,19 @@ plugins:
 page-gen-dirs: true
 
 page_gen:
-  - data: ordered_output
-    template: post
-    dir: papers
+  - data: primaries
+    template: primary
+    dir: primaries
     name_expr: "record['bibtex']"
     title: title
     extension: md
-    debug: true
+  - data: secondaries
+    template: secondary
+    dir: secondaries
+    name_expr: "record['bibtex']"
+    title: title
+    extension: md
+  # debug: true
   # - data: 'members'
   #   template: 'profile'
   #   name: 'name'

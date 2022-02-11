@@ -27,16 +27,36 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Merge JSON files into `ordered_output.json`
         run: |
-          jq -s '.' ./_data/jsons/*.json > ./_data/output.json
+          jq -s '.' ./_data/primary_jsons/*.json > ./_data/output.json
           jq 'sort_by(.date|split("-")|map(tonumber))' ./_data/output.json > ./_data/ordered_output.json
+          jq 'sort_by(.year|map(tonumber))' ordered_output.json > primaries.json
+          rm output.json
+          rm ordered_output.json
           
       - name: Commit file
         id: commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
-          git add ./_data/ordered_output.json
-          git commit -m "Updated ordered_output.json"
+          git add ./_data/primaries.json
+          git commit -m "Updated primaries.json"
+          echo "::set-output name=push::true"
+      
+      - name: Merge JSONs from secondary directory
+        run: |
+          jq -s '.' ./_data/secondary_jsons/*.json > ./_data/output.json
+          jq 'sort_by(.date|split("-")|map(tonumber))' ./_data/output.json > ./_data/ordered_output.json
+          jq 'sort_by(.year|map(tonumber))' ordered_output.json > secondaries.json
+          rm output.json
+          rm ordered_output.json
+
+      - name: Commit file
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
+          git add ./_data/secondaries.json
+          git commit -m "Updated secondaries.json"
           echo "::set-output name=push::true"
       
       - name: Push changes

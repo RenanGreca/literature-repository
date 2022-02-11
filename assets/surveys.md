@@ -6,8 +6,7 @@ layout: secondaries
 title: Secondaries
 ---
 
-Below is a table listing papers on the topic of software regression testing that satisfy Industrial Relevance and Applicability criteria.
-The criteria and initial selection process is detailed in the paper "State of Practical Applicability of Regression Testing Research: A Live Systematic Literature Review".
+Below is a table listing secondary studies on the topic of software regression testing.
 For further information, please read the [About](about) and [Contribute](contribute) pages.
 
 Legend:

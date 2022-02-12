@@ -46,10 +46,10 @@ with open("Secondary Study - Final List.csv") as input_file:
         papers.append(paper)
 
 for paper in papers:
-    with open("../_data/jsons/"+paper['bibtex']+".json", "w") as output_file:
+    with open("../_data/primary_jsons/"+paper['bibtex']+".json", "w") as output_file:
         output_file.write(json.dumps(paper))
 
-with open("../_data/output.json", "w") as output_file:
+with open("../_data/primaries.json", "w") as output_file:
     output_file.write(json.dumps(papers))
 
 papers = []

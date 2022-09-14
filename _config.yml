@@ -53,6 +53,12 @@ page_gen:
     name_expr: "record['bibtex']"
     title: title
     extension: md
+  - data: authors
+    template: author
+    dir: authors
+    name_expr: "record['key']"
+    title: name
+    extension: md
   # debug: true
   # - data: 'members'
   #   template: 'profile'
@@ -80,3 +86,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - support/

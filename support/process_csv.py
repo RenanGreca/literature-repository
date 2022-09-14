@@ -4,6 +4,22 @@
 
 import csv
 import json
+from unidecode import unidecode
+
+def get_author_keys(author_string):
+    authors_list = []
+
+    authors = author_string.split(";")
+    for author in authors:
+        author = author.strip(" ")
+        if "," not in author:
+            print("Incorrect formatting for author: "+author)
+        author_key = unidecode(author)
+        author_key = author_key.replace(",", "").replace(".", "").replace(" ", "_").lower()
+        authors_list.append(author_key)
+    
+    return authors_list
+
 
 papers = []
 with open("Secondary Study - Final List.csv") as input_file:
@@ -13,8 +29,10 @@ with open("Secondary Study - Final List.csv") as input_file:
     for row in reader:
         paper = {}
 
+        paper['type'] = 'primary'
         paper['year'] = row[0]
         paper['authors'] = row[1]
+        paper['author_keys'] = get_author_keys(paper['authors'])
         paper['title'] = row[2]
         paper['bibtex'] = row[3]
         paper['abstract'] = row[4]
@@ -60,8 +78,10 @@ with open("Tertiary Study - Data Collection.csv") as input_file:
     for row in reader:
         paper = {}
 
+        paper['type'] = 'secondary'
         paper['year'] = row[0]
         paper['authors'] = row[1]
+        paper['author_keys'] = get_author_keys(paper['authors'])
         paper['title'] = row[2]
         paper['bibtex'] = row[7]
         paper['abstract'] = row[3]

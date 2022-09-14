@@ -26,7 +26,7 @@ layout: default
       </tr>
         <tr>
           <td>{{ page.year }}</td>
-          <td>{{ page.authors }}</td>
+          <td>{%- include author_links.html value=page.author_keys -%}</td>
           <td>{{ page.publisher }}</td>
           <td><a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></td>
           <!-- <td>{{ paper.Abstract }}</td> -->
@@ -35,20 +35,20 @@ layout: default
 
     <table>
       <tr>
-        <th>TCP</th>
-        <th>TCS</th>
-        <th>TSR</th>
-        <th>TSA</th>
+        <th>Techniques</th>
+        <th>Applicability</th>
       </tr>
       <tr>
-        {%- include checkmark.html value=page.tcp -%}
-        {%- include checkmark.html value=page.tcs -%}
-        {%- include checkmark.html value=page.tsr -%}
-        {%- include checkmark.html value=page.tsa -%}
+        <td>
+          {% include technique.html value=page %}
+        </td>
+        <td>
+          {% include applicability.html value=page %}
+        </td>
       </tr>
     </table>
 
-    <table>
+    <!-- <table>
       <tr>
         <th>Realistic Motivation</th>
         <th>Realistic Evaluation</th>
@@ -65,7 +65,7 @@ layout: default
         {%- include checkmark.html value=page.avai_tool -%}
         {%- include checkmark.html value=page.put_practice -%}
       </tr>
-    </table>
+    </table> -->
     
     <table>
       <tr>

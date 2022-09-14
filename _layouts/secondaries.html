@@ -5,56 +5,53 @@ layout: default
 <div class="home">
 
   <div class="wrapper">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
 
-  {{ content }}
+    {{ content }}
+
   </div>
 
   <!-- <h2>MD version</h2> -->
-  <div style="margin: 0 20px;">
+  <div style="margin: 0 auto; max-width: 1000px;">
     <table id="tableMD" class="hover stripe">
       <thead>
         <tr>
           <th>Year</th>
           <th>Authors</th>
           <th>Title</th>
-          <th style="width:2px !important; background-color: #4f4f4f; padding: 0;"></th>
-          <th>TCP</th>
-          <th>TCS</th>
-          <th>TSR</th>
-          <th>TSA</th>
-          <th style="width:2px; background-color: #4f4f4f; padding: 0;"></th>
+          <th class="table-spacing"></th>
+          <th>Techniques</th>
+          <th class="table-spacing"></th>
           <th>Paper count</th>
           <th>Years covered</th>
           <th>Systematic?</th>
         </tr>
       </thead>
       <tbody>
-        {%- for page in site.pages -%}
-          {%- if page.path contains 'secondaries' -%}
-            <tr>
-              <td>{{ page.year }}</td>
-              <td>{{ page.authors }}</td>
-              <td><a href="{{ page.url | relative_url }}">{{ page.title }}</a></td>
-              <td style="width:2px; background-color: #4f4f4f;"></td>
-              {%- include checkmark.html value=page.tcp -%}
-              {%- include checkmark.html value=page.tcs -%}
-              {%- include checkmark.html value=page.tsr -%}
-              {%- include checkmark.html value=page.tsa -%}
-              <td style="width:2px; background-color: #4f4f4f;"></td>
-              <td>{{ page.paper_count }}</td>
-              <td>{{ page.years_covered }}</td>
-              {%- include checkmark.html value=page.systematic -%}
-            </tr>
-          {%- endif -%}
+        {% assign paper_pages = site.pages | where: "type", "secondary" %}
+        {%- for page in paper_pages -%}
+          <tr>
+            <td>{{ page.year }}</td>
+            <td>{%- include author_links.html value=page.author_keys -%}</td>
+            <td><a href="{{ page.url | relative_url }}">{{ page.title }}</a></td>
+            <td class="table-spacing"></td>
+            <td>
+              {% include technique.html value=page %}
+            </td>
+            <td class="table-spacing"></td>
+            <td>{{ page.paper_count }}</td>
+            <td>{{ page.years_covered }}</td>
+            {%- include checkmark.html value=page.systematic -%}
+          </tr>
         {%- endfor -%}
       </tbody>
       
     </table>
   </div>
 
+  
 
   
   <!-- {%- if site.posts.size > 0 -%}

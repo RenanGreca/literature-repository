@@ -3,3 +3,79 @@
 ---
 
 @import "minima";
+
+
+.tcp {
+    background-color:#62BA47;
+}
+.tcs {
+    background-color: #FCB828;
+}
+.tsr {
+    background-color: #019CDB;
+}
+.tsa {
+    background-color: #DE3A3E;
+}
+
+.technique-icon {
+    color: white;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin:2px;
+    display: inline-block;
+    font-size: 10pt;
+}
+
+.author-link {
+    color: white;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin:2px;
+    display: inline-block;
+    font-size: 10pt;
+    background-color: #019CDB;
+    text-decoration: none;
+}
+
+.author-link:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #006994;
+}
+.author-link:visited {
+    color: white;
+}
+
+.table-spacing {
+    width: 4px !important; 
+    background-color: #4f4f4f; 
+    padding: 0 !important;
+}
+
+
+
+.ind-motivation {
+    background-color: #62BA47;
+}
+.ind-evaluation {
+    background-color: #FCB828;
+}
+.ind-author {
+    background-color: #F5821E;
+}
+.prac-feedback {
+    background-color: #DE3A3E;
+}
+.avai-tool {
+    background-color: #953E97;
+}
+.put-practice {
+    background-color: #019CDB;
+}
+
+td {
+    max-width: 250px;
+}

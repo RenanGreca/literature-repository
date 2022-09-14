@@ -1,0 +1,12 @@
+{%- for author_key in include.value -%}
+    {%- capture author_page_name -%}{{ author_key }}.md{%- endcapture -%}
+    {%- for author_page in site.pages -%}
+        {%- if author_page.name == author_page_name -%}
+            <a class="author-link" href="{{ author_page.url | relative_url }}">
+                <nobr>{{ author_page.title }}</nobr>
+            </a>
+        {%- endif -%}
+    {%- endfor -%}
+    {%- assign author_page = site.pages | where: "name", author_page_name -%}
+    {{ author_page.name }}
+{%- endfor -%}

@@ -1,0 +1,1746 @@
+[
+    {
+        "key": "abdul_wadood",
+        "name": "Abdul, Wadood",
+        "type": "author",
+        "papers": [
+            "rehman_khan_systematic_2018"
+        ]
+    },
+    {
+        "key": "abreu_rui",
+        "name": "Abreu, Rui",
+        "type": "author",
+        "papers": [
+            "correia_motsd_2019"
+        ]
+    },
+    {
+        "key": "afzal_wasif",
+        "name": "Afzal, Wasif",
+        "type": "author",
+        "papers": [
+            "tahvili_dynamic_2016",
+            "tahvili_cost-benefit_2016",
+            "strandberg_experience_2016"
+        ]
+    },
+    {
+        "key": "ali_shaukat",
+        "name": "Ali, Shaukat",
+        "type": "author",
+        "papers": [
+            "wang_enhancing_2016",
+            "pradhan_search-based_2016"
+        ]
+    },
+    {
+        "key": "alizadeh_vahid",
+        "name": "Alizadeh, Vahid",
+        "type": "author",
+        "papers": [
+            "yackley_simultaneous_2019"
+        ]
+    },
+    {
+        "key": "aman_hirohisa",
+        "name": "Aman, Hirohisa",
+        "type": "author",
+        "papers": [
+            "aman_application_2016"
+        ]
+    },
+    {
+        "key": "andrzejak_artur",
+        "name": "Andrzejak, Artur",
+        "type": "author",
+        "papers": [
+            "bach_coverage-based_2017"
+        ]
+    },
+    {
+        "key": "anquetil_nicolas",
+        "name": "Anquetil, Nicolas",
+        "type": "author",
+        "papers": [
+            "blondeau_test_2017"
+        ]
+    },
+    {
+        "key": "azizi_maral",
+        "name": "Azizi, Maral",
+        "type": "author",
+        "papers": [
+            "azizi_retest_2018"
+        ]
+    },
+    {
+        "key": "bach_thomas",
+        "name": "Bach, Thomas",
+        "type": "author",
+        "papers": [
+            "bach_coverage-based_2017"
+        ]
+    },
+    {
+        "key": "bai_yanwei",
+        "name": "Bai, Yanwei",
+        "type": "author",
+        "papers": [
+            "chen_test_2016"
+        ]
+    },
+    {
+        "key": "bajaj_anu",
+        "name": "Bajaj, Anu",
+        "type": "author",
+        "papers": [
+            "bajaj_survey_2018",
+            "bajaj_systematic_2019"
+        ]
+    },
+    {
+        "key": "bakkeli_oyvind",
+        "name": "Bakkeli, Oyvind",
+        "type": "author",
+        "papers": [
+            "wang_enhancing_2016"
+        ]
+    },
+    {
+        "key": "barros_flavia",
+        "name": "Barros, Flávia",
+        "type": "author",
+        "papers": [
+            "magalhaes_automatic_2016"
+        ]
+    },
+    {
+        "key": "bavota_gabriele",
+        "name": "Bavota, Gabriele",
+        "type": "author",
+        "papers": [
+            "yackley_simultaneous_2019"
+        ]
+    },
+    {
+        "key": "bertolino_antonia",
+        "name": "Bertolino, Antonia",
+        "type": "author",
+        "papers": [
+            "miranda_fast_2018",
+            "cruciani_scalable_2019"
+        ]
+    },
+    {
+        "key": "betin-can_aysu",
+        "name": "Betin-Can, Aysu",
+        "type": "author",
+        "papers": [
+            "garousi_multi-objective_2018"
+        ]
+    },
+    {
+        "key": "bhagwan_ranjita",
+        "name": "Bhagwan, Ranjita",
+        "type": "author",
+        "papers": [
+            "philip_fastlane:_2019"
+        ]
+    },
+    {
+        "key": "bin_ali_nauman",
+        "name": "bin Ali, Nauman",
+        "type": "author",
+        "papers": [
+            "bin_ali_search_2019"
+        ]
+    },
+    {
+        "key": "blondeau_vincent",
+        "name": "Blondeau, Vincent",
+        "type": "author",
+        "papers": [
+            "blondeau_test_2017"
+        ]
+    },
+    {
+        "key": "bohlin_markus",
+        "name": "Bohlin, Markus",
+        "type": "author",
+        "papers": [
+            "tahvili_dynamic_2016",
+            "tahvili_cost-benefit_2016"
+        ]
+    },
+    {
+        "key": "buchgeher_georg",
+        "name": "Buchgeher, Georg",
+        "type": "author",
+        "papers": [
+            "buchgeher_improving_2016",
+            "ramler_tool_2017"
+        ]
+    },
+    {
+        "key": "busjaeger_benjamin",
+        "name": "Busjaeger, Benjamin",
+        "type": "author",
+        "papers": [
+            "busjaeger_learning_2016"
+        ]
+    },
+    {
+        "key": "cartaxo_emanuela_g",
+        "name": "Cartaxo, Emanuela G.",
+        "type": "author",
+        "papers": [
+            "ouriques_test_2018"
+        ]
+    },
+    {
+        "key": "cashman_mikaela",
+        "name": "Cashman, Mikaela",
+        "type": "author",
+        "papers": [
+            "srikanth_test_2016"
+        ]
+    },
+    {
+        "key": "celik_ahmet",
+        "name": "Celik, Ahmet",
+        "type": "author",
+        "papers": [
+            "celik_regression_2017",
+            "celik_regression_2018"
+        ]
+    },
+    {
+        "key": "chandra_satish",
+        "name": "Chandra, Satish",
+        "type": "author",
+        "papers": [
+            "machalica_predictive_2018"
+        ]
+    },
+    {
+        "key": "chen_junjie",
+        "name": "Chen, Junjie",
+        "type": "author",
+        "papers": [
+            "chen_test_2016",
+            "chen_optimizing_2018",
+            "lou_survey_2018"
+        ]
+    },
+    {
+        "key": "chen_tsong_yueh",
+        "name": "Chen, Tsong Yueh",
+        "type": "author",
+        "papers": [
+            "zhou_beating_2020"
+        ]
+    },
+    {
+        "key": "cheng_shiang",
+        "name": "Cheng, Shiang",
+        "type": "author",
+        "papers": [
+            "lu_how_2016"
+        ]
+    },
+    {
+        "key": "cherian_snehit",
+        "name": "Cherian, Snehit",
+        "type": "author",
+        "papers": [
+            "yu_terminator_2019"
+        ]
+    },
+    {
+        "key": "chi_zongzheng",
+        "name": "Chi, Zongzheng",
+        "type": "author",
+        "papers": [
+            "chi_multi-level_2017"
+        ]
+    },
+    {
+        "key": "cohen_myra_b",
+        "name": "Cohen, Myra B.",
+        "type": "author",
+        "papers": [
+            "srikanth_test_2016"
+        ]
+    },
+    {
+        "key": "correia_daniel",
+        "name": "Correia, Daniel",
+        "type": "author",
+        "papers": [
+            "correia_motsd_2019"
+        ]
+    },
+    {
+        "key": "cresson_sylvain",
+        "name": "Cresson, Sylvain",
+        "type": "author",
+        "papers": [
+            "blondeau_test_2017"
+        ]
+    },
+    {
+        "key": "croisy_pascal",
+        "name": "Croisy, Pascal",
+        "type": "author",
+        "papers": [
+            "blondeau_test_2017"
+        ]
+    },
+    {
+        "key": "cruciani_emilio",
+        "name": "Cruciani, Emilio",
+        "type": "author",
+        "papers": [
+            "miranda_fast_2018",
+            "cruciani_scalable_2019"
+        ]
+    },
+    {
+        "key": "dirim_sahin",
+        "name": "Dirim, Sahin",
+        "type": "author",
+        "papers": [
+            "dirim_prioritization_2020"
+        ]
+    },
+    {
+        "key": "do_hyunsook",
+        "name": "Do, Hyunsook",
+        "type": "author",
+        "papers": [
+            "srikanth_requirements_2016",
+            "schwartz_cost-effective_2016",
+            "azizi_retest_2018",
+            "eda_efficient_2019",
+            "do_recent_2016"
+        ]
+    },
+    {
+        "key": "ducasse_stephane",
+        "name": "Ducasse, Stéphane",
+        "type": "author",
+        "papers": [
+            "blondeau_test_2017"
+        ]
+    },
+    {
+        "key": "eda_ravi",
+        "name": "Eda, Ravi",
+        "type": "author",
+        "papers": [
+            "eda_efficient_2019"
+        ]
+    },
+    {
+        "key": "engstrom_emelie",
+        "name": "Engström, Emelie",
+        "type": "author",
+        "papers": [
+            "bin_ali_search_2019"
+        ]
+    },
+    {
+        "key": "etien_anne",
+        "name": "Etien, Anne",
+        "type": "author",
+        "papers": [
+            "blondeau_test_2017"
+        ]
+    },
+    {
+        "key": "fahid_fahmid",
+        "name": "Fahid, Fahmid",
+        "type": "author",
+        "papers": [
+            "yu_terminator_2019"
+        ]
+    },
+    {
+        "key": "fu_ben",
+        "name": "Fu, Ben",
+        "type": "author",
+        "papers": [
+            "fu_resurgence_2019"
+        ]
+    },
+    {
+        "key": "garousi_vahid",
+        "name": "Garousi, Vahid",
+        "type": "author",
+        "papers": [
+            "garousi_multi-objective_2018"
+        ]
+    },
+    {
+        "key": "ghani_imran",
+        "name": "Ghani, Imran",
+        "type": "author",
+        "papers": [
+            "kazmi_effective_2017",
+            "hasnain_comprehensive_2020"
+        ]
+    },
+    {
+        "key": "ghosh_idradeep",
+        "name": "Ghosh, Idradeep",
+        "type": "author",
+        "papers": [
+            "yoshida_fsx_2016"
+        ]
+    },
+    {
+        "key": "gligoric_milos",
+        "name": "Gligoric, Milos",
+        "type": "author",
+        "papers": [
+            "vasic_file-level_2017",
+            "celik_regression_2017",
+            "celik_regression_2018",
+            "fu_resurgence_2019"
+        ]
+    },
+    {
+        "key": "gomez_oomar_s",
+        "name": "Gómez, Oomar S.",
+        "type": "author",
+        "papers": [
+            "rosero_15_2016"
+        ]
+    },
+    {
+        "key": "gotlieb_arnaud",
+        "name": "Gotlieb, Arnaud",
+        "type": "author",
+        "papers": [
+            "gotlieb_using_2017"
+        ]
+    },
+    {
+        "key": "goyal_amit",
+        "name": "Goyal, Amit",
+        "type": "author",
+        "papers": [
+            "goyal_test_2019"
+        ]
+    },
+    {
+        "key": "guo_bo",
+        "name": "Guo, Bo",
+        "type": "author",
+        "papers": [
+            "guo_decomposing_2019"
+        ]
+    },
+    {
+        "key": "guo_he",
+        "name": "Guo, He",
+        "type": "author",
+        "papers": [
+            "chi_multi-level_2017"
+        ]
+    },
+    {
+        "key": "gyori_alex",
+        "name": "Gyori, Alex",
+        "type": "author",
+        "papers": [
+            "shi_evaluating_2018"
+        ]
+    },
+    {
+        "key": "haas_roman",
+        "name": "Haas, Roman",
+        "type": "author",
+        "papers": [
+            "noemmer_evaluation_2020"
+        ]
+    },
+    {
+        "key": "haghighatkhah_alireza",
+        "name": "Haghighatkhah, Alireza",
+        "type": "author",
+        "papers": [
+            "haghighatkhah_test_2018"
+        ]
+    },
+    {
+        "key": "hao_dan",
+        "name": "Hao, Dan",
+        "type": "author",
+        "papers": [
+            "lu_how_2016",
+            "chen_test_2016",
+            "chen_optimizing_2018",
+            "hao_test-case_2016",
+            "lou_survey_2018"
+        ]
+    },
+    {
+        "key": "hasnain_muhammad",
+        "name": "Hasnain, Muhammad",
+        "type": "author",
+        "papers": [
+            "hasnain_comprehensive_2020"
+        ]
+    },
+    {
+        "key": "heider_wolfgang",
+        "name": "Heider, Wolfgang",
+        "type": "author",
+        "papers": [
+            "buchgeher_improving_2016"
+        ]
+    },
+    {
+        "key": "helgesson_daniel",
+        "name": "Helgesson, Daniel",
+        "type": "author",
+        "papers": [
+            "bin_ali_search_2019"
+        ]
+    },
+    {
+        "key": "hemmati_hadi",
+        "name": "Hemmati, Hadi",
+        "type": "author",
+        "papers": [
+            "noor_similarity-based_2016"
+        ]
+    },
+    {
+        "key": "hettiarachchi_charitha",
+        "name": "Hettiarachchi, Charitha",
+        "type": "author",
+        "papers": [
+            "srikanth_requirements_2016"
+        ]
+    },
+    {
+        "key": "hirzel_matthias",
+        "name": "Hirzel, Matthias",
+        "type": "author",
+        "papers": [
+            "hirzel_graph-walk-based_2016"
+        ]
+    },
+    {
+        "key": "huber_heinz",
+        "name": "Huber, Heinz",
+        "type": "author",
+        "papers": [
+            "buchgeher_improving_2016"
+        ]
+    },
+    {
+        "key": "isa_mohd_adham",
+        "name": "Isa, Mohd Adham",
+        "type": "author",
+        "papers": [
+            "khatibsyarbini_test_2018"
+        ]
+    },
+    {
+        "key": "javaid_nadeem",
+        "name": "Javaid, Nadeem",
+        "type": "author",
+        "papers": [
+            "rehman_khan_systematic_2018"
+        ]
+    },
+    {
+        "key": "jawawi_dayang_n_a",
+        "name": "Jawawi, Dayang N. A.",
+        "type": "author",
+        "papers": [
+            "kazmi_effective_2017",
+            "khatibsyarbini_test_2018"
+        ]
+    },
+    {
+        "key": "jeong_seung_ryul",
+        "name": "Jeong, Seung Ryul",
+        "type": "author",
+        "papers": [
+            "hasnain_comprehensive_2020"
+        ]
+    },
+    {
+        "key": "jetley_raoul",
+        "name": "Jetley, Raoul",
+        "type": "author",
+        "papers": [
+            "goyal_test_2019"
+        ]
+    },
+    {
+        "key": "kawahara_minoru",
+        "name": "Kawahara, Minoru",
+        "type": "author",
+        "papers": [
+            "aman_application_2016"
+        ]
+    },
+    {
+        "key": "kazmi_rafaqut",
+        "name": "Kazmi, Rafaqut",
+        "type": "author",
+        "papers": [
+            "kazmi_effective_2017"
+        ]
+    },
+    {
+        "key": "kessentini_marouane",
+        "name": "Kessentini, Marouane",
+        "type": "author",
+        "papers": [
+            "yackley_simultaneous_2019"
+        ]
+    },
+    {
+        "key": "khatibsyarbini_muhammad",
+        "name": "Khatibsyarbini, Muhammad",
+        "type": "author",
+        "papers": [
+            "khatibsyarbini_test_2018"
+        ]
+    },
+    {
+        "key": "khurshid_sarfraz",
+        "name": "Khurshid, Sarfraz",
+        "type": "author",
+        "papers": [
+            "zhong_testsage:_2019"
+        ]
+    },
+    {
+        "key": "klaeren_herbert",
+        "name": "Klaeren, Herbert",
+        "type": "author",
+        "papers": [
+            "hirzel_graph-walk-based_2016"
+        ]
+    },
+    {
+        "key": "klammer_claus",
+        "name": "Klammer, Claus",
+        "type": "author",
+        "papers": [
+            "buchgeher_improving_2016"
+        ]
+    },
+    {
+        "key": "ko_in-young",
+        "name": "Ko, In-Young",
+        "type": "author",
+        "papers": [
+            "kwon_cost-effective_2017"
+        ]
+    },
+    {
+        "key": "kumar_rahul",
+        "name": "Kumar, Rahul",
+        "type": "author",
+        "papers": [
+            "philip_fastlane:_2019"
+        ]
+    },
+    {
+        "key": "kunze_sebastian",
+        "name": "Kunze, Sebastian",
+        "type": "author",
+        "papers": [
+            "bin_ali_search_2019"
+        ]
+    },
+    {
+        "key": "kuvaja_pasi",
+        "name": "Kuvaja, Pasi",
+        "type": "author",
+        "papers": [
+            "haghighatkhah_test_2018"
+        ]
+    },
+    {
+        "key": "kwon_jung-hyun",
+        "name": "Kwon, Jung-Hyun",
+        "type": "author",
+        "papers": [
+            "kwon_cost-effective_2017"
+        ]
+    },
+    {
+        "key": "kwon_young-woo",
+        "name": "Kwon, Young-Woo",
+        "type": "author",
+        "papers": [
+            "guo_decomposing_2019"
+        ]
+    },
+    {
+        "key": "land_kathrin",
+        "name": "Land, Kathrin",
+        "type": "author",
+        "papers": [
+            "land_industrial_2019"
+        ]
+    },
+    {
+        "key": "larsson_stig",
+        "name": "Larsson, Stig",
+        "type": "author",
+        "papers": [
+            "tahvili_dynamic_2016",
+            "tahvili_cost-benefit_2016"
+        ]
+    },
+    {
+        "key": "le_traon_yves",
+        "name": "Le Traon, Yves",
+        "type": "author",
+        "papers": [
+            "leong_assessing_2019"
+        ]
+    },
+    {
+        "key": "lee__sai_peck",
+        "name": "Lee,  Sai Peck",
+        "type": "author",
+        "papers": [
+            "rehman_khan_systematic_2018"
+        ]
+    },
+    {
+        "key": "lee_young_chul",
+        "name": "Lee, Young Chul",
+        "type": "author",
+        "papers": [
+            "celik_regression_2018"
+        ]
+    },
+    {
+        "key": "leong_claire",
+        "name": "Leong, Claire",
+        "type": "author",
+        "papers": [
+            "leong_assessing_2019"
+        ]
+    },
+    {
+        "key": "li_huaxia",
+        "name": "Li, Huaxia",
+        "type": "author",
+        "papers": [
+            "land_industrial_2019"
+        ]
+    },
+    {
+        "key": "li_zheng",
+        "name": "Li, Zheng",
+        "type": "author",
+        "papers": [
+            "wu_time_2019"
+        ]
+    },
+    {
+        "key": "liaaen_marius",
+        "name": "Liaaen, Marius",
+        "type": "author",
+        "papers": [
+            "wang_enhancing_2016",
+            "marijan_effect_2016"
+        ]
+    },
+    {
+        "key": "lim_chern_hong",
+        "name": "Lim, Chern Hong",
+        "type": "author",
+        "papers": [
+            "hasnain_comprehensive_2020"
+        ]
+    },
+    {
+        "key": "liu_chen",
+        "name": "Liu, Chen",
+        "type": "author",
+        "papers": [
+            "zhou_beating_2020"
+        ]
+    },
+    {
+        "key": "lou_yiling",
+        "name": "Lou, Yiling",
+        "type": "author",
+        "papers": [
+            "lu_how_2016",
+            "chen_optimizing_2018",
+            "lou_survey_2018"
+        ]
+    },
+    {
+        "key": "lu_yafeng",
+        "name": "Lu, Yafeng",
+        "type": "author",
+        "papers": [
+            "lu_how_2016"
+        ]
+    },
+    {
+        "key": "lubke_daniel",
+        "name": "Lübke, Daniel",
+        "type": "author",
+        "papers": [
+            "lubke_selecting_2020"
+        ]
+    },
+    {
+        "key": "lusser_michael",
+        "name": "Lusser, Michael",
+        "type": "author",
+        "papers": [
+            "ramler_tool_2017"
+        ]
+    },
+    {
+        "key": "machado_patricia_dl",
+        "name": "Machado, Patrícia D.L.",
+        "type": "author",
+        "papers": [
+            "ouriques_test_2018"
+        ]
+    },
+    {
+        "key": "machalica_mateusz",
+        "name": "Machalica, Mateusz",
+        "type": "author",
+        "papers": [
+            "machalica_predictive_2018"
+        ]
+    },
+    {
+        "key": "maddila_chandra_sekhar",
+        "name": "Maddila, Chandra Sekhar",
+        "type": "author",
+        "papers": [
+            "philip_fastlane:_2019"
+        ]
+    },
+    {
+        "key": "magalhaes_claudio",
+        "name": "Magalhães, Cláudio",
+        "type": "author",
+        "papers": [
+            "magalhaes_automatic_2016"
+        ]
+    },
+    {
+        "key": "mahmood_suleman",
+        "name": "Mahmood, Suleman",
+        "type": "author",
+        "papers": [
+            "shi_evaluating_2018"
+        ]
+    },
+    {
+        "key": "maia_eliot",
+        "name": "Maia, Eliot",
+        "type": "author",
+        "papers": [
+            "magalhaes_automatic_2016"
+        ]
+    },
+    {
+        "key": "mantyla__mika",
+        "name": "Mäntylä,  Mika",
+        "type": "author",
+        "papers": [
+            "haghighatkhah_test_2018"
+        ]
+    },
+    {
+        "key": "marijan_dusica",
+        "name": "Marijan, Dusica",
+        "type": "author",
+        "papers": [
+            "marijan_effect_2016",
+            "gotlieb_using_2017"
+        ]
+    },
+    {
+        "key": "marinov_darko",
+        "name": "Marinov, Darko",
+        "type": "author",
+        "papers": [
+            "shi_evaluating_2018",
+            "shi_understanding_2019"
+        ]
+    },
+    {
+        "key": "maxim_bruce_r",
+        "name": "Maxim, Bruce R.",
+        "type": "author",
+        "papers": [
+            "yackley_simultaneous_2019"
+        ]
+    },
+    {
+        "key": "mei_hong",
+        "name": "Mei, Hong",
+        "type": "author",
+        "papers": [
+            "hao_test-case_2016"
+        ]
+    },
+    {
+        "key": "menzies_tim",
+        "name": "Menzies, Tim",
+        "type": "author",
+        "papers": [
+            "yu_terminator_2019"
+        ]
+    },
+    {
+        "key": "micco_john",
+        "name": "Micco, John",
+        "type": "author",
+        "papers": [
+            "leong_assessing_2019"
+        ]
+    },
+    {
+        "key": "milicevic_aleksandar",
+        "name": "Milicevic, Aleksandar",
+        "type": "author",
+        "papers": [
+            "vasic_file-level_2017",
+            "celik_regression_2017"
+        ]
+    },
+    {
+        "key": "minhas_nasir_mehmood",
+        "name": "Minhas, Nasir Mehmood",
+        "type": "author",
+        "papers": [
+            "bin_ali_search_2019"
+        ]
+    },
+    {
+        "key": "miranda_breno",
+        "name": "Miranda, Breno",
+        "type": "author",
+        "papers": [
+            "miranda_fast_2018",
+            "cruciani_scalable_2019"
+        ]
+    },
+    {
+        "key": "misailovic_sasa",
+        "name": "Misailovic, Sasa",
+        "type": "author",
+        "papers": [
+            "fu_resurgence_2019"
+        ]
+    },
+    {
+        "key": "mohamad_radziah",
+        "name": "Mohamad, Radziah",
+        "type": "author",
+        "papers": [
+            "kazmi_effective_2017"
+        ]
+    },
+    {
+        "key": "mohan_devina",
+        "name": "Mohan, Devina",
+        "type": "author",
+        "papers": [
+            "goyal_test_2019"
+        ]
+    },
+    {
+        "key": "mota_alexandre",
+        "name": "Mota, Alexandre",
+        "type": "author",
+        "papers": [
+            "magalhaes_automatic_2016"
+        ]
+    },
+    {
+        "key": "mousavi_mohammad_reza",
+        "name": "Mousavi, Mohammad Reza",
+        "type": "author",
+        "papers": [
+            "bin_ali_search_2019"
+        ]
+    },
+    {
+        "key": "mukherjee_rajendrani",
+        "name": "Mukherjee, Rajendrani",
+        "type": "author",
+        "papers": [
+            "mukherjee_survey_2018"
+        ]
+    },
+    {
+        "key": "nadkarni_joo",
+        "name": "Nadkarni, Joo",
+        "type": "author",
+        "papers": [
+            "correia_motsd_2019"
+        ]
+    },
+    {
+        "key": "nagppan_nachiappan",
+        "name": "Nagppan, Nachiappan",
+        "type": "author",
+        "papers": [
+            "philip_fastlane:_2019"
+        ]
+    },
+    {
+        "key": "najafi_armin",
+        "name": "Najafi, Armin",
+        "type": "author",
+        "papers": [
+            "najafi_improving_2019"
+        ]
+    },
+    {
+        "key": "nakano_takashi",
+        "name": "Nakano, Takashi",
+        "type": "author",
+        "papers": [
+            "aman_application_2016"
+        ]
+    },
+    {
+        "key": "neumann_eva-maria",
+        "name": "Neumann, Eva-Maria",
+        "type": "author",
+        "papers": [
+            "land_industrial_2019"
+        ]
+    },
+    {
+        "key": "noemmer_raphael",
+        "name": "Noemmer, Raphael",
+        "type": "author",
+        "papers": [
+            "noemmer_evaluation_2020"
+        ]
+    },
+    {
+        "key": "noor_tanzeem_bin",
+        "name": "Noor, Tanzeem Bin",
+        "type": "author",
+        "papers": [
+            "noor_similarity-based_2016"
+        ]
+    },
+    {
+        "key": "ogasawara_hideto",
+        "name": "Ogasawara, Hideto",
+        "type": "author",
+        "papers": [
+            "aman_application_2016"
+        ]
+    },
+    {
+        "key": "oivo_markku",
+        "name": "Oivo, Markku",
+        "type": "author",
+        "papers": [
+            "haghighatkhah_test_2018"
+        ]
+    },
+    {
+        "key": "ostrand_thomas_j",
+        "name": "Ostrand, Thomas J.",
+        "type": "author",
+        "papers": [
+            "strandberg_experience_2016"
+        ]
+    },
+    {
+        "key": "ouriques_joao_felipe_s",
+        "name": "Ouriques, João Felipe S.",
+        "type": "author",
+        "papers": [
+            "ouriques_test_2018"
+        ]
+    },
+    {
+        "key": "ozkan_ramazan",
+        "name": "Özkan, Ramazan",
+        "type": "author",
+        "papers": [
+            "garousi_multi-objective_2018"
+        ]
+    },
+    {
+        "key": "pannemans_ralf",
+        "name": "Pannemans, Ralf",
+        "type": "author",
+        "papers": [
+            "bach_coverage-based_2017"
+        ]
+    },
+    {
+        "key": "papadakis_mike",
+        "name": "Papadakis, Mike",
+        "type": "author",
+        "papers": [
+            "leong_assessing_2019"
+        ]
+    },
+    {
+        "key": "parvez_zuhair",
+        "name": "Parvez, Zuhair",
+        "type": "author",
+        "papers": [
+            "vasic_file-level_2017"
+        ]
+    },
+    {
+        "key": "pasha_muhammad_fermi",
+        "name": "Pasha, Muhammad Fermi",
+        "type": "author",
+        "papers": [
+            "hasnain_comprehensive_2020"
+        ]
+    },
+    {
+        "key": "patnaik_k_sridhar",
+        "name": "Patnaik, K. Sridhar",
+        "type": "author",
+        "papers": [
+            "mukherjee_survey_2018"
+        ]
+    },
+    {
+        "key": "patrick_kyle",
+        "name": "Patrick, Kyle",
+        "type": "author",
+        "papers": [
+            "yu_terminator_2019"
+        ]
+    },
+    {
+        "key": "peng_qianyang",
+        "name": "Peng, Qianyang",
+        "type": "author",
+        "papers": [
+            "peng_empirically_2020"
+        ]
+    },
+    {
+        "key": "philip_adithya_abraham",
+        "name": "Philip, Adithya Abraham",
+        "type": "author",
+        "papers": [
+            "philip_fastlane:_2019"
+        ]
+    },
+    {
+        "key": "porth_meredith",
+        "name": "Porth, Meredith",
+        "type": "author",
+        "papers": [
+            "machalica_predictive_2018"
+        ]
+    },
+    {
+        "key": "pradhan_dipesh",
+        "name": "Pradhan, Dipesh",
+        "type": "author",
+        "papers": [
+            "pradhan_search-based_2016"
+        ]
+    },
+    {
+        "key": "prado_lima_jackson_a",
+        "name": "Prado Lima, Jackson A.",
+        "type": "author",
+        "papers": [
+            "lima_multi-armed_2020",
+            "prado_lima_test_2020"
+        ]
+    },
+    {
+        "key": "prasad_mukul_r",
+        "name": "Prasad, Mukul R.",
+        "type": "author",
+        "papers": [
+            "yoshida_fsx_2016"
+        ]
+    },
+    {
+        "key": "ramaswamy_srini",
+        "name": "Ramaswamy, Srini",
+        "type": "author",
+        "papers": [
+            "goyal_test_2019"
+        ]
+    },
+    {
+        "key": "ramler_rudolf",
+        "name": "Ramler, Rudolf",
+        "type": "author",
+        "papers": [
+            "ramler_tool_2017"
+        ]
+    },
+    {
+        "key": "rehman_khan_saif_ur",
+        "name": "Rehman Khan, Saif Ur",
+        "type": "author",
+        "papers": [
+            "rehman_khan_systematic_2018"
+        ]
+    },
+    {
+        "key": "ren_zhilei",
+        "name": "Ren, Zhilei",
+        "type": "author",
+        "papers": [
+            "chi_multi-level_2017"
+        ]
+    },
+    {
+        "key": "rigby_peter_c",
+        "name": "Rigby, Peter C.",
+        "type": "author",
+        "papers": [
+            "zhu_test_2018",
+            "najafi_improving_2019"
+        ]
+    },
+    {
+        "key": "rodriguez_glen",
+        "name": "Rodríguez, Glen",
+        "type": "author",
+        "papers": [
+            "rosero_15_2016"
+        ]
+    },
+    {
+        "key": "rosero_raul_h",
+        "name": "Rosero, Raúl H.",
+        "type": "author",
+        "papers": [
+            "rosero_15_2016"
+        ]
+    },
+    {
+        "key": "rothermel_gregg",
+        "name": "Rothermel, Gregg",
+        "type": "author",
+        "papers": [
+            "yu_terminator_2019"
+        ]
+    },
+    {
+        "key": "saadatmand_mehrdad",
+        "name": "Saadatmand, Mehrdad",
+        "type": "author",
+        "papers": [
+            "tahvili_dynamic_2016",
+            "tahvili_cost-benefit_2016"
+        ]
+    },
+    {
+        "key": "salomon_christian",
+        "name": "Salomon, Christian",
+        "type": "author",
+        "papers": [
+            "ramler_tool_2017"
+        ]
+    },
+    {
+        "key": "samylkin_alex",
+        "name": "Samylkin, Alex",
+        "type": "author",
+        "papers": [
+            "machalica_predictive_2018"
+        ]
+    },
+    {
+        "key": "sangwan_om_prakash",
+        "name": "Sangwan, Om Prakash",
+        "type": "author",
+        "papers": [
+            "bajaj_survey_2018",
+            "bajaj_systematic_2019"
+        ]
+    },
+    {
+        "key": "santos_pedro",
+        "name": "Santos, Pedro",
+        "type": "author",
+        "papers": [
+            "correia_motsd_2019"
+        ]
+    },
+    {
+        "key": "schuetz_martin",
+        "name": "Schuetz, Martin",
+        "type": "author",
+        "papers": [
+            "buchgeher_improving_2016"
+        ]
+    },
+    {
+        "key": "schwartz_amanda",
+        "name": "Schwartz, Amanda",
+        "type": "author",
+        "papers": [
+            "schwartz_cost-effective_2016"
+        ]
+    },
+    {
+        "key": "shang_weiyi",
+        "name": "Shang, Weiyi",
+        "type": "author",
+        "papers": [
+            "najafi_improving_2019"
+        ]
+    },
+    {
+        "key": "shi_august",
+        "name": "Shi, August",
+        "type": "author",
+        "papers": [
+            "shi_evaluating_2018",
+            "shi_understanding_2019",
+            "peng_empirically_2020"
+        ]
+    },
+    {
+        "key": "shihab_emad",
+        "name": "Shihab, Emad",
+        "type": "author",
+        "papers": [
+            "zhu_test_2018"
+        ]
+    },
+    {
+        "key": "shyamasundar_r_k",
+        "name": "Shyamasundar, R. K.",
+        "type": "author",
+        "papers": [
+            "goyal_test_2019"
+        ]
+    },
+    {
+        "key": "singh_abhayendra",
+        "name": "Singh, Abhayendra",
+        "type": "author",
+        "papers": [
+            "leong_assessing_2019"
+        ]
+    },
+    {
+        "key": "song_myoungkyu",
+        "name": "Song, Myoungkyu",
+        "type": "author",
+        "papers": [
+            "guo_decomposing_2019"
+        ]
+    },
+    {
+        "key": "sozer_hasan",
+        "name": "Sozer, Hasan",
+        "type": "author",
+        "papers": [
+            "dirim_prioritization_2020"
+        ]
+    },
+    {
+        "key": "srikanth_hema",
+        "name": "Srikanth, Hema",
+        "type": "author",
+        "papers": [
+            "srikanth_requirements_2016",
+            "srikanth_test_2016"
+        ]
+    },
+    {
+        "key": "strandberg_per_erik",
+        "name": "Strandberg, Per Erik",
+        "type": "author",
+        "papers": [
+            "strandberg_experience_2016"
+        ]
+    },
+    {
+        "key": "sundmark_daniel",
+        "name": "Sundmark, Daniel",
+        "type": "author",
+        "papers": [
+            "tahvili_dynamic_2016",
+            "tahvili_cost-benefit_2016",
+            "strandberg_experience_2016"
+        ]
+    },
+    {
+        "key": "susilo_willy",
+        "name": "Susilo, Willy",
+        "type": "author",
+        "papers": [
+            "zhou_beating_2020"
+        ]
+    },
+    {
+        "key": "tahvili_sahar",
+        "name": "Tahvili, Sahar",
+        "type": "author",
+        "papers": [
+            "tahvili_dynamic_2016",
+            "tahvili_cost-benefit_2016"
+        ]
+    },
+    {
+        "key": "tanaka_yuta",
+        "name": "Tanaka, Yuta",
+        "type": "author",
+        "papers": [
+            "aman_application_2016"
+        ]
+    },
+    {
+        "key": "tarhan_ayca",
+        "name": "Tarhan, Ayça",
+        "type": "author",
+        "papers": [
+            "yilmaz_case_2018"
+        ]
+    },
+    {
+        "key": "taromirad_masoumeh",
+        "name": "Taromirad, Masoumeh",
+        "type": "author",
+        "papers": [
+            "bin_ali_search_2019"
+        ]
+    },
+    {
+        "key": "tokumoto_susumu",
+        "name": "Tokumoto, Susumu",
+        "type": "author",
+        "papers": [
+            "yoshida_fsx_2016"
+        ]
+    },
+    {
+        "key": "tse_t_h",
+        "name": "Tse, T. H.",
+        "type": "author",
+        "papers": [
+            "zhou_beating_2020"
+        ]
+    },
+    {
+        "key": "tumeng_rooster",
+        "name": "Tumeng, Rooster",
+        "type": "author",
+        "papers": [
+            "khatibsyarbini_test_2018"
+        ]
+    },
+    {
+        "key": "uehara_tadahiro",
+        "name": "Uehara, Tadahiro",
+        "type": "author",
+        "papers": [
+            "yoshida_fsx_2016"
+        ]
+    },
+    {
+        "key": "varshosaz_mahsa",
+        "name": "Varshosaz, Mahsa",
+        "type": "author",
+        "papers": [
+            "bin_ali_search_2019"
+        ]
+    },
+    {
+        "key": "vasic_marko",
+        "name": "Vasic, Marko",
+        "type": "author",
+        "papers": [
+            "vasic_file-level_2017",
+            "celik_regression_2017"
+        ]
+    },
+    {
+        "key": "verdecchia_roberto",
+        "name": "Verdecchia, Roberto",
+        "type": "author",
+        "papers": [
+            "miranda_fast_2018",
+            "cruciani_scalable_2019"
+        ]
+    },
+    {
+        "key": "vergilio_silvia_r",
+        "name": "Vergilio, Silvia R.",
+        "type": "author",
+        "papers": [
+            "lima_multi-armed_2020",
+            "prado_lima_test_2020"
+        ]
+    },
+    {
+        "key": "vogel-heuser_birgit",
+        "name": "Vogel-Heuser, Birgit",
+        "type": "author",
+        "papers": [
+            "land_industrial_2019"
+        ]
+    },
+    {
+        "key": "vost_sebastian",
+        "name": "Vöst, Sebastian",
+        "type": "author",
+        "papers": [
+            "vost_trace-based_2016"
+        ]
+    },
+    {
+        "key": "wagner_stefan",
+        "name": "Wagner, Stefan",
+        "type": "author",
+        "papers": [
+            "vost_trace-based_2016"
+        ]
+    },
+    {
+        "key": "wang_shuai",
+        "name": "Wang, Shuai",
+        "type": "author",
+        "papers": [
+            "wang_enhancing_2016",
+            "pradhan_search-based_2016"
+        ]
+    },
+    {
+        "key": "wang_xiaoleng",
+        "name": "Wang, Xiaoleng",
+        "type": "author",
+        "papers": [
+            "chen_optimizing_2018"
+        ]
+    },
+    {
+        "key": "weyuker_elaine_j",
+        "name": "Weyuker, Elaine J.",
+        "type": "author",
+        "papers": [
+            "strandberg_experience_2016"
+        ]
+    },
+    {
+        "key": "wu_zhaolin",
+        "name": "Wu, Zhaolin",
+        "type": "author",
+        "papers": [
+            "wu_time_2019"
+        ]
+    },
+    {
+        "key": "xie_bing",
+        "name": "Xie, Bing",
+        "type": "author",
+        "papers": [
+            "chen_test_2016"
+        ]
+    },
+    {
+        "key": "xie_tao",
+        "name": "Xie, Tao",
+        "type": "author",
+        "papers": [
+            "busjaeger_learning_2016"
+        ]
+    },
+    {
+        "key": "xie_xiaoyuan",
+        "name": "Xie, Xiaoyuan",
+        "type": "author",
+        "papers": [
+            "chi_multi-level_2017"
+        ]
+    },
+    {
+        "key": "xiong_yingfei",
+        "name": "Xiong, Yingfei",
+        "type": "author",
+        "papers": [
+            "chen_test_2016"
+        ]
+    },
+    {
+        "key": "xuan_jifeng",
+        "name": "Xuan, Jifeng",
+        "type": "author",
+        "papers": [
+            "chi_multi-level_2017"
+        ]
+    },
+    {
+        "key": "yackley_jeffrey_j",
+        "name": "Yackley, Jeffrey J.",
+        "type": "author",
+        "papers": [
+            "yackley_simultaneous_2019"
+        ]
+    },
+    {
+        "key": "yang_yang",
+        "name": "Yang, Yang",
+        "type": "author",
+        "papers": [
+            "wu_time_2019"
+        ]
+    },
+    {
+        "key": "yilmaz_ugur",
+        "name": "Yilmaz, Uğur",
+        "type": "author",
+        "papers": [
+            "yilmaz_case_2018"
+        ]
+    },
+    {
+        "key": "yoshida_hiroaki",
+        "name": "Yoshida, Hiroaki",
+        "type": "author",
+        "papers": [
+            "yoshida_fsx_2016"
+        ]
+    },
+    {
+        "key": "yu_zhe",
+        "name": "Yu, Zhe",
+        "type": "author",
+        "papers": [
+            "yu_terminator_2019"
+        ]
+    },
+    {
+        "key": "yue_tao",
+        "name": "Yue, Tao",
+        "type": "author",
+        "papers": [
+            "wang_enhancing_2016",
+            "pradhan_search-based_2016"
+        ]
+    },
+    {
+        "key": "zhang_hongyu",
+        "name": "Zhang, Hongyu",
+        "type": "author",
+        "papers": [
+            "chen_test_2016"
+        ]
+    },
+    {
+        "key": "zhang_lingming",
+        "name": "Zhang, Lingming",
+        "type": "author",
+        "papers": [
+            "lu_how_2016",
+            "zhang_hybrid_2018",
+            "chen_optimizing_2018",
+            "zhong_testsage:_2019",
+            "peng_empirically_2020",
+            "lou_survey_2018"
+        ]
+    },
+    {
+        "key": "zhang_lu",
+        "name": "Zhang, Lu",
+        "type": "author",
+        "papers": [
+            "lu_how_2016",
+            "chen_test_2016",
+            "chen_optimizing_2018",
+            "hao_test-case_2016"
+        ]
+    },
+    {
+        "key": "zhao_peiyuan",
+        "name": "Zhao, Peiyuan",
+        "type": "author",
+        "papers": [
+            "shi_evaluating_2018",
+            "shi_understanding_2019"
+        ]
+    },
+    {
+        "key": "zhao_ruilian",
+        "name": "Zhao, Ruilian",
+        "type": "author",
+        "papers": [
+            "wu_time_2019"
+        ]
+    },
+    {
+        "key": "zhong_hua",
+        "name": "Zhong, Hua",
+        "type": "author",
+        "papers": [
+            "zhong_testsage:_2019"
+        ]
+    },
+    {
+        "key": "zhou_jianyi",
+        "name": "Zhou, Jianyi",
+        "type": "author",
+        "papers": [
+            "chen_optimizing_2018"
+        ]
+    },
+    {
+        "key": "zhou_yangfan",
+        "name": "Zhou, Yangfan",
+        "type": "author",
+        "papers": [
+            "lu_how_2016"
+        ]
+    },
+    {
+        "key": "zhou_zhi_quan",
+        "name": "Zhou, Zhi Quan",
+        "type": "author",
+        "papers": [
+            "zhou_beating_2020"
+        ]
+    },
+    {
+        "key": "zhu_yuecai",
+        "name": "Zhu, Yuecai",
+        "type": "author",
+        "papers": [
+            "zhu_test_2018"
+        ]
+    },
+    {
+        "key": "ziegltrum_simon",
+        "name": "Ziegltrum, Simon",
+        "type": "author",
+        "papers": [
+            "land_industrial_2019"
+        ]
+    }
+]

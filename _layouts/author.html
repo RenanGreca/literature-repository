@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="wrapper">
+        <header class="post-header">
+          <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+        </header>
+
+        <table id="tableMD" class="hover stripe">
+          <thead>
+            <tr>
+              <th>
+                Papers
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <td>
+              {%- include author_links.html value=page.papers -%}
+            </td>
+          </tbody>
+        </table>
+    </div>
+    
+</article>

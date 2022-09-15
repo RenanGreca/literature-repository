@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dynamic integration test selection based on test case dependencies" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/literature-repository/primaries/tahvili_dynamic_2016.html","headline":"Dynamic integration test selection based on test case dependencies","dateModified":"2016-08-04T00:00:00+02:00","datePublished":"2016-08-04T00:00:00+02:00","@type":"BlogPosting","description":"Live repository of the literature review published in “State of Practical Applicability of Regression Testing Research: A Live Systematic Literature Review”.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/literature-repository/primaries/tahvili_dynamic_2016.html"},"@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/literature-repository/primaries/tahvili_dynamic_2016.html"},"url":"http://localhost:4000/literature-repository/primaries/tahvili_dynamic_2016.html","@type":"BlogPosting","description":"Live repository of the literature review published in “State of Practical Applicability of Regression Testing Research: A Live Systematic Literature Review”.","headline":"Dynamic integration test selection based on test case dependencies","dateModified":"2016-08-04T00:00:00+02:00","datePublished":"2016-08-04T00:00:00+02:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- <link rel="stylesheet" type="text/css" href="/literature-repository/assets/DataTables/datatables.min.css"/>
   <script type="text/javascript" src="/literature-repository/assets/DataTables/datatables.min.js"></script> -->
@@ -62,7 +62,19 @@
       </tr>
         <tr>
           <td>2016</td>
-          <td>Tahvili, Sahar; Saadatmand, Mehrdad; Larsson, Stig; Afzal, Wasif; Bohlin, Markus; Sundmark, Daniel</td>
+          <td><a class="author-link" href="/literature-repository/authors/tahvili_sahar.html">
+                <nobr>Tahvili, Sahar</nobr>
+            </a><a class="author-link" href="/literature-repository/authors/saadatmand_mehrdad.html">
+                <nobr>Saadatmand, Mehrdad</nobr>
+            </a><a class="author-link" href="/literature-repository/authors/larsson_stig.html">
+                <nobr>Larsson, Stig</nobr>
+            </a><a class="author-link" href="/literature-repository/authors/afzal_wasif.html">
+                <nobr>Afzal, Wasif</nobr>
+            </a><a class="author-link" href="/literature-repository/authors/bohlin_markus.html">
+                <nobr>Bohlin, Markus</nobr>
+            </a><a class="author-link" href="/literature-repository/authors/sundmark_daniel.html">
+                <nobr>Sundmark, Daniel</nobr>
+            </a></td>
           <td>IEEE</td>
           <td><a href="https://doi.org/10.1109/ICSTW.2016.14">10.1109/ICSTW.2016.14</a></td>
           <!-- <td></td> -->
@@ -71,23 +83,30 @@
 
     <table>
       <tr>
-        <th>TCP</th>
-        <th>TCS</th>
-        <th>TSR</th>
-        <th>TSA</th>
+        <th>Techniques</th>
+        <th>Applicability</th>
       </tr>
-      <tr><td style="background-color: #99cc99;">
-        ✓
-    </td><td style="background-color: #99cc99;">
-        ✓
-    </td><td>
-        
-    </td><td>
-        
-    </td></tr>
+      <tr>
+        <td>
+          <span class="technique-icon tcp">
+        TCP
+    </span><span class="technique-icon tcs">
+        TCS
+    </span>
+        </td>
+        <td>
+          <span class="technique-icon ind-motivation">
+        <nobr>Industry Motivation</nobr>
+    </span><span class="technique-icon ind-evaluation">
+        <nobr>Industry Evaluation</nobr>
+    </span><span class="technique-icon prac-feedback">
+        <nobr>Practitioner Feedback</nobr>
+    </span>
+        </td>
+      </tr>
     </table>
 
-    <table>
+    <!-- <table>
       <tr>
         <th>Realistic Motivation</th>
         <th>Realistic Evaluation</th>
@@ -111,8 +130,8 @@
     </td>
     <!-- <td style="background-color: #ffff99;">
         ?
-    </td> --></tr>
-    </table>
+    </td> -->&lt;/tr&gt;
+    &lt;/table&gt; --&gt;
     
     <table>
       <tr>

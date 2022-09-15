@@ -30,8 +30,6 @@ github_username:  renangreca/literature-repository
 # Build settings
 theme: minima
 plugins:
-  # - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-datapage-generator
 
 # collections:

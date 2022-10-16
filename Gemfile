@@ -15,7 +15,7 @@ source "https://rubygems.org"
 gem "github-pages", "~> 219", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.15.1"
   gem "jekyll-datapage-generator"
 end
 
@@ -30,7 +30,7 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Dependencies for the theme
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-seo-tag", "~> 2.6"
+# gem "jekyll-feed", "~> 0.12"
+gem "jekyll-seo-tag", "~> 2.7.1"
 
 gem "nokogiri", ">= 1.12.5"

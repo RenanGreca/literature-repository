@@ -9,7 +9,11 @@ tags: help
 This repository is meant to be live and continually updated according to advancements in the literature.
 If you have published or read a paper that fits this repository, we kindly encourage you to submit this paper to our repository.
 
-Contributions are made via [GitHub pull requests](https://github.com/RenanGreca/literature-repository/pulls).
+Please make the submission via [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLScJnBDxGqznZQuXlDPpsCjw-0sB1MtLtVV1kXqSFtXmvhYshA/viewform?usp=sf_link).
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJnBDxGqznZQuXlDPpsCjw-0sB1MtLtVV1kXqSFtXmvhYshA/viewform?embedded=true" width="640" height="2123" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+<!-- Contributions are made via [GitHub pull requests](https://github.com/RenanGreca/literature-repository/pulls).
 You can create a Pull Request by forking the repository, making the necessary changes and using the GitHub Pull Request tool.
 For further information on how to create and use Pull Request, please refer to the [GitHub documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
@@ -27,7 +31,7 @@ Please use the following template to add an entry:
     "abstract": "Something long",
     "published_in": "Name of the conference",
     "publisher": "Name of the publisher (e.g. IEEE, ACM, etc.)",
-    "source": "Query",
+    "source": "Author suggestion",
     "doi": "XXXX/XXXXXXXXX (do not include http://doi.org/)",
     "date": "YYYY-mm-dd",
     "tcp": "X (if paper covers TCP, or else leave blank)",
@@ -50,4 +54,4 @@ Please use the following template to add an entry:
 ```
 
 If you have any questions or experience difficulties during the process, please file an issue
-on the project's [GitHub repository](https://github.com/RenanGreca/literature-repository).
+on the project's [GitHub repository](https://github.com/RenanGreca/literature-repository). -->

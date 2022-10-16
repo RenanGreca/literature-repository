@@ -17,7 +17,7 @@ for paper in papers:
     for author in authors:
         author = author.strip(" ")
         if "," not in author:
-            print("Incorrect formatting for author: "+author)
+            print("Incorrect formatting for author: "+author_string)
         author_key = unidecode(author)
         author_key = author_key.replace(",", "").replace(".", "").replace(" ", "_").lower()
         if author_key not in authors_set:

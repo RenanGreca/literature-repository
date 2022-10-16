@@ -21,9 +21,7 @@ layout: default
           <th>Year</th>
           <th>Authors</th>
           <th>Title</th>
-          <th class="table-spacing"></th>
           <th>Techniques</th>
-          <th class="table-spacing"></th>
           <th>Paper count</th>
           <th>Years covered</th>
           <th>Systematic?</th>
@@ -36,11 +34,9 @@ layout: default
             <td>{{ page.year }}</td>
             <td>{%- include author_links.html value=page.author_keys -%}</td>
             <td><a href="{{ page.url | relative_url }}">{{ page.title }}</a></td>
-            <td class="table-spacing"></td>
             <td>
               {% include technique.html value=page %}
             </td>
-            <td class="table-spacing"></td>
             <td>{{ page.paper_count }}</td>
             <td>{{ page.years_covered }}</td>
             {%- include checkmark.html value=page.systematic -%}

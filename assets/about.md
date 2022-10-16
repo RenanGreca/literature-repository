@@ -15,5 +15,5 @@ techniques with the potential of usage in real software.
 
 If you have written or read a paper that could be a good fit for this
 website, please read the [Contribute](contribute) page.
-For technical questions, please file an issue via [GitHub](https://github.com/RenanGreca/literature-repository/issues);
+For technical issues or questions, please file an issue via [GitHub](https://github.com/RenanGreca/literature-repository/issues);
 for other discussions, contact the author via [e-mail](mailto:renan.greca@gssi.it).

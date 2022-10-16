@@ -22,7 +22,7 @@ def get_author_keys(author_string):
 
 
 papers = []
-with open("Secondary Study - Final List.csv") as input_file:
+with open("primaries.csv") as input_file:
     reader = csv.reader(input_file) #, delimiter=',', quitechar='"')
     next(reader)
     next(reader)
@@ -30,36 +30,62 @@ with open("Secondary Study - Final List.csv") as input_file:
         paper = {}
 
         paper['type'] = 'primary'
-        paper['year'] = row[0]
-        paper['authors'] = row[1]
+        i = 0
+        paper['year'] = row[i]
+        i += 1
+        paper['authors'] = row[i]
         paper['author_keys'] = get_author_keys(paper['authors'])
-        paper['title'] = row[2]
-        paper['bibtex'] = row[3]
-        paper['abstract'] = row[4]
-        paper['published_in'] = row[5]
-        paper['publisher'] = row[6]
-        paper['doi'] = row[8]
-        paper['date'] = row[9]
+        i += 1
+        paper['title'] = row[i]
+        i += 1
+        paper['bibtex'] = row[i]
+        i += 1
+        paper['abstract'] = row[i]
+        i += 1
+        paper['published_in'] = row[i]
+        i += 1
+        paper['publisher'] = row[i]
+        i += 2
+        paper['doi'] = row[i]
+        i += 1
+        paper['date'] = row[i]
 
-        paper['tcp'] = row[17]
-        paper['tcs'] = row[18]
-        paper['tsr'] = row[19]
-        paper['tsa'] = row[20]
+        i += 3
+        paper['tcp'] = row[i]
+        i += 1
+        paper['tcs'] = row[i]
+        i += 1
+        paper['tsr'] = row[i]
+        i += 1
+        paper['tsa'] = row[i]
 
-        paper['ind_motivation'] = row[23]
-        paper['ind_evaluation'] = row[24]
-        paper['exp_subjects'] = row[25]
-        paper['ind_partner'] = row[26]
-        paper['ind_author'] = row[27]
-        paper['prac_feedback'] = row[28]
-        paper['avai_tool'] = row[29]
-        paper['put_practice'] = row[30]
+        i += 3
+        paper['ind_motivation'] = row[i]
+        i += 1
+        paper['ind_evaluation'] = row[i]
+        i += 1
+        paper['exp_subjects'] = row[i]
+        i += 1
+        paper['prog_language'] = row[i]
+        i += 1
+        paper['ind_partner'] = row[i]
+        i += 1
+        paper['ind_author'] = row[i]
+        i += 1
+        paper['prac_feedback'] = row[i]
+        i += 1
+        paper['avai_tool'] = row[i]
+        i += 1
+        paper['put_practice'] = row[i]
+        i += 1
+        paper['suppl_url'] = row[i]
 
-        paper['suppl_url'] = row[31]
-
-        paper['approach'] = row[34]
-        paper['metrics'] = row[35]
-        paper['open_challenges'] = row[36]
+        i += 3
+        paper['approach'] = row[i]
+        i += 1
+        paper['metrics'] = row[i]
+        i += 1
+        paper['open_challenges'] = row[i]
         
         papers.append(paper)
 
@@ -71,7 +97,7 @@ with open("../_data/primaries.json", "w") as output_file:
     output_file.write(json.dumps(papers))
 
 papers = []
-with open("Tertiary Study - Data Collection.csv") as input_file:
+with open("secondaries.csv") as input_file:
     reader = csv.reader(input_file) #, delimiter=',', quitechar='"')
     next(reader)
     next(reader)
@@ -79,30 +105,48 @@ with open("Tertiary Study - Data Collection.csv") as input_file:
         paper = {}
 
         paper['type'] = 'secondary'
-        paper['year'] = row[0]
-        paper['authors'] = row[1]
+        i = 0
+        paper['year'] = row[i]
+        i += 1
+        paper['authors'] = row[i]
         paper['author_keys'] = get_author_keys(paper['authors'])
-        paper['title'] = row[2]
-        paper['bibtex'] = row[7]
-        paper['abstract'] = row[3]
-        paper['published_in'] = row[4]
-        paper['publisher'] = row[5]
-        paper['doi'] = row[8]
-        paper['date'] = row[9]
+        i += 1
+        paper['title'] = row[i]
+        i += 1
+        paper['abstract'] = row[i]
+        i += 1
+        paper['published_in'] = row[i]
+        i += 1
+        paper['publisher'] = row[i]
+        i += 1
+        paper['bibtex'] = row[i]
+        i += 1
+        paper['doi'] = row[i]
+        i += 1
+        paper['date'] = row[i]
 
-        paper['tcp'] = row[15]
-        paper['tcs'] = row[16]
-        paper['tsr'] = row[17]
-        paper['tsa'] = row[18]
+        i += 1
+        paper['tcp'] = row[i]
+        i += 1
+        paper['tcs'] = row[i]
+        i += 1
+        paper['tsr'] = row[i]
+        i += 1
+        paper['tsa'] = row[i]
 
-        paper['paper_count'] = row[19]
-        paper['years_covered'] = row[21]
-        paper['systematic'] = row[22]
+        i += 1
+        paper['paper_count'] = row[i]
+        i += 1
+        paper['years_covered'] = row[i]
+        i += 1
+        paper['systematic'] = row[i]
 
-        paper['approach'] = row[27]
-        paper['metrics'] = row[28]
-        paper['conclusions'] = row[29]
-        paper['open_challenges'] = row[30]
+        i += 1
+        paper['context'] = row[i]
+        # paper['approach'] = row[27]
+        # paper['metrics'] = row[28]
+        # paper['conclusions'] = row[29]
+        # paper['open_challenges'] = row[30]
         
         papers.append(paper)
 

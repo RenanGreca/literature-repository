@@ -12,7 +12,7 @@ For further information, please read the [About](about) and [Contribute](contrib
 
 Legend:
 * Year: publication year of the paper, according to the publisher.
-* Authors: list of authors, following the format "LastName1, FirstName1; LastName2, FirstName2; ...".
+* Authors: list of authors.
 * Title: title of the paper linking to a page with further information.
 * TCP: Test Case Prioritization
 * TCS: Test Case Selection

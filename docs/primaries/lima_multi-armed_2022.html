@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>A Multi-Armed Bandit Approach for Test Case Prioritization in Continuous Integration Environments | Software Testing in Practice Literature Review</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="A Multi-Armed Bandit Approach for Test Case Prioritization in Continuous Integration Environments" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Live repository of the literature review published in “State of Practical Applicability of Regression Testing Research: A Live Systematic Literature Review”." />
+<meta property="og:description" content="Live repository of the literature review published in “State of Practical Applicability of Regression Testing Research: A Live Systematic Literature Review”." />
+<link rel="canonical" href="http://localhost:4000/literature-repository/primaries/lima_multi-armed_2022.html" />
+<meta property="og:url" content="http://localhost:4000/literature-repository/primaries/lima_multi-armed_2022.html" />
+<meta property="og:site_name" content="Software Testing in Practice Literature Review" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-04T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="A Multi-Armed Bandit Approach for Test Case Prioritization in Continuous Integration Environments" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/literature-repository/primaries/lima_multi-armed_2022.html","headline":"A Multi-Armed Bandit Approach for Test Case Prioritization in Continuous Integration Environments","dateModified":"2020-05-04T00:00:00+02:00","@type":"BlogPosting","description":"Live repository of the literature review published in “State of Practical Applicability of Regression Testing Research: A Live Systematic Literature Review”.","datePublished":"2020-05-04T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/literature-repository/primaries/lima_multi-armed_2022.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- <link rel="stylesheet" type="text/css" href="/literature-repository/assets/DataTables/datatables.min.css"/>
+  <script type="text/javascript" src="/literature-repository/assets/DataTables/datatables.min.js"></script> -->
+  
+  <link rel="stylesheet" href="/literature-repository/assets/main.css">
+  <title>A Multi-Armed Bandit Approach for Test Case Prioritization in Continuous Integration Environments - Software Testing in Practice Literature Review</title>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/literature-repository/">Software Testing in Practice Literature Review</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/literature-repository/about/">About</a><a class="page-link" href="/literature-repository/contribute/">Contribute</a><a class="page-link" href="/literature-repository/assets/surveys.html">Related Works</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <!-- <div class="wrapper"> -->
+        <article class="post h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
+
+  <div class="wrapper">
+    <header class="post-header">
+      <h1 class="post-title p-name" itemprop="name headline">A Multi-Armed Bandit Approach for Test Case Prioritization in Continuous Integration Environments</h1>
+      <p class="post-meta">
+        <time class="dt-published" datetime="2020-05-04T00:00:00+02:00" itemprop="datePublished">Published in <b>IEEE Transactions on Software Engineering</b> on <b>May 4, 2020</b>
+        </time></p>
+    </header>
+
+    <!-- <h2>Relevant information</h2> -->
+    <table>
+      <tr>
+        <th>Year</th>
+        <th>Authors</th>
+        <th>Publisher</th>
+        <th>DOI</th>
+      </tr>
+        <tr>
+          <td>2022</td>
+          <td><a class="author-link" href="/literature-repository/authors/lima_jackson_a_prado.html">
+                <nobr>Lima, Jackson A. Prado</nobr>
+            </a><a class="author-link" href="/literature-repository/authors/vergilio_silvia_regina.html">
+                <nobr>Vergilio, Silvia Regina</nobr>
+            </a></td>
+          <td>IEEE</td>
+          <td><a href="https://doi.org/10.1109/TSE.2020.2992428">10.1109/TSE.2020.2992428</a></td>
+          <!-- <td></td> -->
+        </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th>Techniques</th>
+        <th>Applicability</th>
+      </tr>
+      <tr>
+        <td>
+          <span class="technique-icon tcp">
+        TCP
+    </span>
+        </td>
+        <td>
+          <span class="technique-icon ind-motivation">
+        <nobr>Industry Motivation</nobr>
+    </span><span class="technique-icon ind-evaluation">
+        <nobr>Industry Evaluation</nobr>
+    </span>
+        </td>
+      </tr>
+    </table>
+
+    <!-- <table>
+      <tr>
+        <th>Realistic Motivation</th>
+        <th>Realistic Evaluation</th>
+        <th>Industrial Author</th>
+        <th>Practitioner Feedback</th>
+        <th>Available Tool</th>
+        <th>Put into Practice</th>
+      </tr>
+      <tr><td style="background-color: #99cc99;">
+        ✓
+    </td><td style="background-color: #99cc99;">
+        ✓
+    </td><td style="background-color: #ff9999;">
+        ✗
+    </td><td style="background-color: #ff9999;">
+        ✗
+    </td><td style="background-color: #ff9999;">
+        ✗
+    </td></tr>
+    </table> -->
+    
+    <table>
+      <tr>
+        <th>Experiment subject(s)</th>
+        <th>Industrial Partner</th>
+      </tr>
+      <tr>
+        <td>Industrial open-source, medium to large scale
+Open-source, small to large scale
+
+ABB Robotics dataset (1.9k TCs)
+
+GSDTSR (Google) dataset (5.5k TCs)
+
+GitHub projects (117 - 2.4k TCs)</td>
+        <td></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th>Approach</th>
+        <th>Metrics</th>
+        <th>Open Challenges</th>
+      </tr>
+      <tr>
+        <td>
+          reinforcement learning based
+        </td>
+        <td>
+          NAPFD, APFDc, RMSE (root-mean-square-error), prioritization time, NTR (normalized time reduction), RFTC (Rank of Failing Test Cases)
+        </td>
+        <td>
+          Apply approach in industrial scenario; consider including individual test case time; evaluate scalability as nº of TCs vs prioritization time; provide COLEMAN as an open-source API or plug-in.
+        </td>
+      </tr>
+    </table><table>
+      <tr>
+        <th>Supplementary Material</th>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://osf.io/wmcbt/">https://osf.io/wmcbt/</a>
+        </td>
+      </tr>
+    </table><h2>Abstract</h2>
+    <div class="post-content e-content" itemprop="articleBody">
+      Continuous Integration (CI) environments have been increasingly adopted in the industry to allow frequent integration of software changes, making software evolution faster and cost-effective. In such environments, Test Case Prioritization (TCP) techniques play an important role to reduce regression testing costs, establishing a test case execution order that usually maximizes early fault detection. Existing works on TCP in CI environments (TCPCI) present some limitations. Few pieces of work consider CI particularities, such as the test case volatility, that is, they do not consider the dynamic environment of the software life-cycle in which new test cases can be added or removed (discontinued), characteristic related to the Exploration versus Exploitation (EvE) dilemma. To solve such a dilemma an approach needs to balance: i) the diversity of test suite; and ii) the quantity of new test cases and test cases that are error-prone or that comprise high fault-detection capabilities. To deal with this, most approaches use, besides the failure-history, other measures that rely on code instrumentation or require additional information, such as testing coverage. However, to maintain the information updated can be difficult and time-consuming, not scalable due to the test budget of CI environments. In this context, and to properly deal with the TCPCI problem, this work presents an approach based on Multi-Armed Bandit (MAB) called COLEMAN (Combinatorial VOlatiLE Multi-Armed BANdit). The TCPCI problem falls into the category of volatile and combinatorial MAB, because multiple arms (test cases) need to be selected, and they are added or removed over the cycles. We conducted an evaluation considering three time budgets and eleven systems. The results show the applicability of our approach and that COLEMAN outperforms the most similar approach from literature in terms of early fault detection and performance.
+    </div>
+
+    <a class="u-url" href="/literature-repository/primaries/lima_multi-armed_2022.html" hidden=""></a>
+  </div>
+</article>
+
+      <!-- </div> -->
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/literature-repository/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Software Testing in Practice Literature Review</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Software Testing in Practice Literature Review</li><li>Contact: <a class="u-email" href="mailto:renan.greca@gssi.com">renan.greca@gssi.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/renangreca%2Fliterature-repository"><svg class="svg-icon"><use xlink:href="/literature-repository/assets/minima-social-icons.svg#github"></use></svg> <span class="username">GitHub</span></a></li><li><a href="https://www.twitter.com/renangreca"><svg class="svg-icon"><use xlink:href="/literature-repository/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">Twitter</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Live repository of the literature review published in &quot;State of Practical Applicability of Regression Testing Research: A Live Systematic Literature Review&quot;.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

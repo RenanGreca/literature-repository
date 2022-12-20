@@ -1,0 +1,160 @@
+Information  approaches:
+Requirements-based
+Test code
+
+
+Cost-aware
+Trace-based
+Cost-aware
+History-based
+
+
+Model-based, Load factor
+Cost-aware, Manual classification
+Change-based
+
+History-based
+History-based, Coverage-based
+Coverage-based
+Cost-aware, Manual classification
+Change-based, Coverage-based
+History-based, Change-based
+History-based, Fault-based
+
+
+Coverage-based
+
+Change-based
+Change-based, Execution context
+Coverage-based, Model-based
+History-based
+
+Coverage-based
+History-based
+Change-based
+Test code
+Change-based
+
+Change-based
+Fault-based
+
+Change-based
+Coverage-based, Trace-based
+Change-based
+Change-based
+Requirements-based
+History-based, Coverage-based, Cost-aware, Manual classification
+
+History-based
+History-based
+Fault-based, Author count
+Test code
+
+Coverage-based
+
+
+Coverage-based
+Coverage-based
+
+Change-based
+
+
+Test code
+
+Cost-aware, Fault-based
+
+
+
+
+
+
+Cost-aware
+
+
+Change-based, Execution context
+Change-based
+
+Change-based, Fault-based
+
+
+Change-based, Test code
+Algorithm  metrics:
+
+Similarity / distance-based
+Bloom filter or window-based
+Graph-based
+Search-based, Greedy
+
+Search-based
+
+
+Search-based
+
+
+
+Search-based
+Similarity / distance-based
+Similarity / distance-based, Machine learning-based
+
+
+Graph-based
+
+
+Constraints-based
+Search-based
+Greedy
+Machine learning-based
+
+
+Similarity / distance-based, Graph-based
+Bloom filter or window-based
+Search-based
+
+Similarity / distance-based
+
+Similarity / distance-based
+Graph-based
+
+Graph-based
+
+Graph-based
+
+
+
+Constraints-based
+
+
+Search-based
+Machine learning-based
+
+
+Similarity / distance-based
+Machine learning-based
+Search-based
+Machine learning-based
+
+Greedy
+
+
+
+Machine learning-based
+Similarity / distance-based
+Search-based
+Machine learning-based, Graph-based
+
+Search-based
+Machine learning-based
+Machine learning-based
+Bloom filter or window-based
+Machine learning-based
+
+Search-based, Greedy
+
+Greedy
+
+Machine learning-based
+Machine learning-based
+
+Machine learning-based
+Machine learning-based
+Similarity / distance-based

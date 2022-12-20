@@ -1,0 +1,240 @@
+Effectiveness metrics:
+Average Percentage of Faults Detected (APFD)
+Coverage Effectiveness (CE), Time/tests To First Failure
+Fault Detection Capability, Cost-benefit model
+Selection/reduction count/percentage
+Average Percentage of Faults Detected (APFD)
+Selection/reduction count/percentage
+Fault Detection Capability, Fault detection within a budget
+Average Percentage of Faults Detected (APFD)
+Selection/reduction count/percentage, Accuracy/precision/recall, Time/tests To First Failure
+Fault detection within a budget, Algorithm performance measures
+Comparison to expert
+Testing time
+
+Accuracy/precision/recall, Comparison to expert
+Fault Detection Rate (FDR)
+Average Percentage of Faults Detected (APFD), Accuracy/precision/recall
+Coverage Effectiveness (CE), Number of tests added
+Cost-benefit model
+Testing time
+Testing time, Fault Detection Rate (FDR)
+Average Percentage of Faults Detected (APFD), Fault Detection Capability
+Selection/reduction count/percentage
+Selection/reduction count/percentage
+Selection/reduction count/percentage, Fault detection within a budget
+Average Percentage of Faults Detected (APFD)
+Selection/reduction count/percentage
+Selection/reduction count/percentage, Testing time
+Average Percentage of Faults Detected (APFD)
+Accuracy/precision/recall, Fault Detection Capability, Faults per tests/time
+Testing time, Cost-benefit model
+Fault Detection Loss
+Average Percentage of Faults Detected (APFD)
+Selection/reduction count/percentage
+Average Percentage of Faults Detected (APFD)
+Selection/reduction count/percentage, Testing time
+Average Percentage of Faults Detected (APFD), Time/tests To First Failure
+Selection/reduction count/percentage, Testing time
+Time/tests To First Failure
+Selection/reduction count/percentage, Fault Detection Rate (FDR)
+Accuracy/precision/recall
+Testing time
+Selection/reduction count/percentage
+Selection/reduction count/percentage
+Selection/reduction count/percentage, Testing time
+Average Percentage of Faults Detected (APFD), Fault Detection Rate (FDR), Coverage Effectiveness (CE)
+
+Selection/reduction count/percentage, Accuracy/precision/recall
+Fault Detection Loss
+
+Fault Detection Loss
+Testing time, Accuracy/precision/recall
+Coverage Effectiveness (CE)
+Average Percentage of Faults Detected (APFD)
+
+Selection/reduction count/percentage, Testing time, Fault Detection Loss
+Coverage Effectiveness (CE), Accumulated regression risk
+
+Selection/reduction count/percentage, Testing time
+Average Percentage of Faults Detected (APFD), Time/tests To First Failure, Fault detection within a budget
+Time/tests To First Failure
+Average Percentage of Faults Detected (APFD)
+Rank Percentile Average (RPA)
+Fault Detection Loss
+Fault Detection Capability, Time/tests To First Failure
+Average Percentage of Faults Detected (APFD), Rank Percentile Average (RPA)
+
+Average Percentage of Faults Detected (APFD), Accuracy/precision/recall, Time/tests To First Failure
+Testing time, Cost-benefit model
+Accuracy/precision/recall
+Average Percentage of Faults Detected (APFD), Time/tests To First Failure
+
+Average Percentage of Faults Detected (APFD)
+Selection/reduction count/percentage, Fault Detection Capability
+Selection/reduction count/percentage, Testing time
+Average Percentage of Faults Detected (APFD), Accuracy/precision/recall
+Selection/reduction count/percentage, Testing time, Fault Detection Capability
+Average Percentage of Faults Detected (APFD)
+Average Percentage of Faults Detected (APFD), Accuracy/precision/recall
+Average Percentage of Faults Detected (APFD), Time/tests To First Failure, Fault detection within a budget
+Efficiency metrics:
+
+
+
+Execution time, Memory usage
+
+
+Execution time, Total/End-to-end time, Memory usage
+
+
+
+
+
+Total/End-to-end time
+
+
+
+Execution time
+
+
+
+
+Execution time
+Execution time
+
+
+Execution time, Total/End-to-end time
+Execution time
+
+
+
+
+Execution time
+Total/End-to-end time
+Execution time, Total/End-to-end time, Scalability
+
+
+Total/End-to-end time
+
+
+
+Execution time
+Total/End-to-end time
+
+
+
+
+
+Execution time
+
+Execution time, Scalability
+
+
+Execution time
+
+
+
+
+
+Execution time
+
+
+Total/End-to-end time
+
+
+
+Measuring time/cost
+
+
+Execution time
+Execution time
+
+Execution time
+
+Execution time, Total/End-to-end time
+
+
+Scalability
+
+Execution time, Total/End-to-end time
+Other metrics:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Diagnosability
+
+
+
+
+
+
+
+
+
+
+
+
+
+Applicability/Generality
+
+
+
+
+
+
+
+
+Applicability/Generality
+
+
+
+
+
+
+
+
+
+

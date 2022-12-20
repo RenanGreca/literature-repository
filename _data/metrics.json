@@ -1,0 +1,574 @@
+[
+    {
+        "key": "selection_reduction_count_percentage",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Selection/reduction count/percentage",
+        "papers": {
+            "tcp": [],
+            "tcs": [
+                "hirzel_graph-walk-based_2016",
+                "zhang_hybrid_2018",
+                "eda_efficient_2019",
+                "bach_coverage-based_2017",
+                "blondeau_test_2017",
+                "vasic_file-level_2017",
+                "fu_resurgence_2019",
+                "azizi_retest_2018",
+                "shi_understanding_2019",
+                "vost_trace-based_2016",
+                "machalica_predictive_2018",
+                "celik_regression_2017",
+                "celik_regression_2018",
+                "yilmaz_case_2018",
+                "zhang_comparing_2022",
+                "chen_context-aware_2021",
+                "cingil_black-box_2022"
+            ],
+            "tsr": [
+                "gotlieb_using_2017",
+                "noemmer_evaluation_2020",
+                "eda_efficient_2019",
+                "goyal_test_2019",
+                "chi_multi-level_2017"
+            ],
+            "tsa": []
+        },
+        "description": "Absolute or relative size of the resulting test suite compared to the original."
+    },
+    {
+        "key": "average_percentage_of_faults_detected_apfd",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Average Percentage of Faults Detected (APFD)",
+        "papers": {
+            "tcp": [
+                "wu_time_2019",
+                "srikanth_test_2016",
+                "peng_empirically_2020",
+                "lu_how_2016",
+                "haghighatkhah_test_2018",
+                "busjaeger_learning_2016",
+                "marijan_effect_2016",
+                "yu_terminator_2019",
+                "chen_optimizing_2018",
+                "ouriques_test_2018",
+                "srikanth_requirements_2016",
+                "miranda_fast_2018",
+                "abdelkarim_tcp-net_2022",
+                "lima_multi-armed_2022",
+                "zhou_parallel_2022",
+                "yaraghi_scalable_2022",
+                "pan_dynamic_2020",
+                "bagherzadeh_reinforcement_2022",
+                "li_aga_2021",
+                "omri_learning_2022",
+                "greca_comparing_2022",
+                "spieker_reinforcement_2017"
+            ],
+            "tcs": [],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "A measure of how quickly a test suite detects faults, on average. Includes many variations, such as APFDc and NAPFD."
+    },
+    {
+        "key": "testing_time",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Testing time",
+        "papers": {
+            "tcp": [],
+            "tcs": [
+                "zhong_testsage:_2019",
+                "shi_understanding_2019",
+                "celik_regression_2017",
+                "celik_regression_2018",
+                "garousi_multi-objective_2018",
+                "yilmaz_case_2018",
+                "ramler_tool_2017",
+                "tahvili_dynamic_2016",
+                "zhang_comparing_2022",
+                "mehta_data-driven_2021",
+                "cingil_black-box_2022"
+            ],
+            "tsr": [
+                "noemmer_evaluation_2020",
+                "goyal_test_2019",
+                "philip_fastlane:_2019"
+            ],
+            "tsa": []
+        },
+        "description": "Time required to execute the prioritized/selected/reduced test suite as opposed to the original suite."
+    },
+    {
+        "key": "accuracy_precision_recall",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Accuracy/precision/recall",
+        "papers": {
+            "tcp": [
+                "kwon_cost-effective_2017",
+                "busjaeger_learning_2016",
+                "abdelkarim_tcp-net_2022",
+                "pan_dynamic_2020",
+                "omri_learning_2022"
+            ],
+            "tcs": [
+                "magalhaes_automatic_2016",
+                "kwon_cost-effective_2017",
+                "blondeau_test_2017",
+                "machalica_predictive_2018",
+                "guo_decomposing_2019",
+                "xu_requirement-based_2021"
+            ],
+            "tsr": [
+                "philip_fastlane:_2019"
+            ],
+            "tsa": []
+        },
+        "description": "Measures of correctness and completeness of the resulting test suite (e.g., count of false positives and false negatives)."
+    },
+    {
+        "key": "fault_detection_capability",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Fault Detection Capability",
+        "papers": {
+            "tcp": [
+                "schwartz_cost-effective_2016",
+                "marijan_effect_2016",
+                "wang_enhancing_2016"
+            ],
+            "tcs": [
+                "kwon_cost-effective_2017",
+                "zarges_artificial_2021",
+                "chen_context-aware_2021",
+                "cingil_black-box_2022"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Number or proportion of faults detected by the resulting suite compared to the original."
+    },
+    {
+        "key": "fault_detection_rate_fdr",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Fault Detection Rate (FDR)",
+        "papers": {
+            "tcp": [
+                "yu_terminator_2019",
+                "strandberg_experience_2016",
+                "aman_application_2016"
+            ],
+            "tcs": [
+                "azizi_retest_2018"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Time to detect faults compared to the optimal RT suite."
+    },
+    {
+        "key": "coverage_effectiveness_ce",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Coverage Effectiveness (CE)",
+        "papers": {
+            "tcp": [
+                "yu_terminator_2019",
+                "noor_similarity-based_2016",
+                "lubke_selecting_2020",
+                "magalhaes_hsp_2020"
+            ],
+            "tcs": [
+                "lubke_selecting_2020",
+                "magalhaes_hsp_2020"
+            ],
+            "tsr": [],
+            "tsa": [
+                "yoshida_fsx_2016"
+            ]
+        },
+        "description": "Measure of the tradeoff between cost of the test suite and structural coverage of the SUT."
+    },
+    {
+        "key": "time_tests_to_first_failure",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Time/tests To First Failure",
+        "papers": {
+            "tcp": [
+                "zhou_beating_2020",
+                "chen_optimizing_2018",
+                "noor_similarity-based_2016",
+                "zhu_test_2018",
+                "lima_multi-armed_2022",
+                "zhou_parallel_2022",
+                "pan_dynamic_2020",
+                "greca_comparing_2022"
+            ],
+            "tcs": [
+                "blondeau_test_2017",
+                "zarges_artificial_2021",
+                "greca_comparing_2022"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Number of tests or amount of time needed to reach the first failure."
+    },
+    {
+        "key": "fault_detection_within_a_budget",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Fault detection within a budget",
+        "papers": {
+            "tcp": [
+                "bach_coverage-based_2017",
+                "wang_enhancing_2016",
+                "lima_multi-armed_2022",
+                "greca_comparing_2022"
+            ],
+            "tcs": [
+                "greca_comparing_2022",
+                "pradhan_search-based_2016",
+                "bach_coverage-based_2017"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Faults still detected when restricting the testing time budget."
+    },
+    {
+        "key": "cost-benefit_model",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Cost-benefit model",
+        "papers": {
+            "tcp": [
+                "tahvili_cost-benefit_2016",
+                "schwartz_cost-effective_2016"
+            ],
+            "tcs": [
+                "garousi_multi-objective_2018",
+                "mehta_data-driven_2021"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Mathematical models considering costs and benefits of applying a technique throughout development."
+    },
+    {
+        "key": "fault_detection_loss",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Fault Detection Loss",
+        "papers": {
+            "tcp": [
+                "najafi_improving_2019"
+            ],
+            "tcs": [
+                "najafi_improving_2019",
+                "chen_multi-objective_2021"
+            ],
+            "tsr": [
+                "shi_evaluating_2018",
+                "cruciani_scalable_2019"
+            ],
+            "tsa": []
+        },
+        "description": "Number or proportion of faults undetected by the selected/reduced test suite compared to the original."
+    },
+    {
+        "key": "comparison_to_expert",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Comparison to expert",
+        "papers": {
+            "tcp": [
+                "buchgeher_improving_2016"
+            ],
+            "tcs": [
+                "buchgeher_improving_2016",
+                "magalhaes_automatic_2016"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Compares the output of the tool with a list of tests selected by the project architect."
+    },
+    {
+        "key": "faults_per_tests_time",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Faults per tests/time",
+        "papers": {
+            "tcp": [
+                "kwon_cost-effective_2017"
+            ],
+            "tcs": [
+                "kwon_cost-effective_2017"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Number of faults deteted per number of tests or testing time."
+    },
+    {
+        "key": "number_of_tests_added",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Number of tests added",
+        "papers": {
+            "tcp": [],
+            "tcs": [],
+            "tsr": [],
+            "tsa": [
+                "yoshida_fsx_2016"
+            ]
+        },
+        "description": "Number of tests added to the test suite."
+    },
+    {
+        "key": "algorithm_performance_measures",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Algorithm performance measures",
+        "papers": {
+            "tcp": [],
+            "tcs": [
+                "pradhan_search-based_2016"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Fitness value or hypervolume metrics applied to search-based algorithms"
+    },
+    {
+        "key": "accumulated_regression_risk",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Accumulated regression risk",
+        "papers": {
+            "tcp": [
+                "lubke_selecting_2020"
+            ],
+            "tcs": [
+                "lubke_selecting_2020"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "How much of the \"regression risk\" is covered by the tests."
+    },
+    {
+        "key": "root-mean-square-error_rmse",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Root-mean-square-error (RMSE)",
+        "papers": {
+            "tcp": [],
+            "tcs": [],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Compares the predicted and observed results."
+    },
+    {
+        "key": "rank_percentile_average_rpa",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Rank Percentile Average (RPA)",
+        "papers": {
+            "tcp": [
+                "bertolino_learning--rank_2020",
+                "bagherzadeh_reinforcement_2022"
+            ],
+            "tcs": [
+                "bertolino_learning--rank_2020"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Comparison between the predicted ranking and the actual ranking (from the dataset)."
+    },
+    {
+        "key": "most_likely_relative_position_mrp",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Most Likely Relative Position (MRP)",
+        "papers": {
+            "tcp": [],
+            "tcs": [],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Average position of first failed test, i.e. an estimate of how long the suite takes to find the first fault."
+    },
+    {
+        "key": "savings_factor",
+        "type": "metric",
+        "category": "Effectiveness",
+        "name": "Savings Factor",
+        "papers": {
+            "tcp": [],
+            "tcs": [],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Mapping of APFD to dollar savings."
+    },
+    {
+        "key": "execution_time",
+        "type": "metric",
+        "category": "Efficiency",
+        "name": "Execution time",
+        "papers": {
+            "tcp": [
+                "wu_time_2019",
+                "haghighatkhah_test_2018",
+                "wang_enhancing_2016",
+                "najafi_improving_2019",
+                "miranda_fast_2018",
+                "lima_multi-armed_2022",
+                "zhou_parallel_2022",
+                "li_aga_2021",
+                "greca_comparing_2022"
+            ],
+            "tcs": [
+                "hirzel_graph-walk-based_2016",
+                "zhong_testsage:_2019",
+                "vasic_file-level_2017",
+                "celik_regression_2017",
+                "najafi_improving_2019",
+                "zhang_comparing_2022",
+                "xu_requirement-based_2021",
+                "greca_comparing_2022"
+            ],
+            "tsr": [
+                "gotlieb_using_2017",
+                "cruciani_scalable_2019",
+                "chi_multi-level_2017"
+            ],
+            "tsa": [
+                "yoshida_fsx_2016"
+            ]
+        },
+        "description": "Time required to run the tool (e.g., selection time, prioritization time, etc)."
+    },
+    {
+        "key": "total_end-to-end_time",
+        "type": "metric",
+        "category": "Efficiency",
+        "name": "Total/End-to-end time",
+        "papers": {
+            "tcp": [
+                "wang_enhancing_2016",
+                "miranda_fast_2018",
+                "bertolino_learning--rank_2020",
+                "greca_comparing_2022"
+            ],
+            "tcs": [
+                "zhang_hybrid_2018",
+                "fu_resurgence_2019",
+                "celik_regression_2018",
+                "vasic_file-level_2017",
+                "zhang_comparing_2022",
+                "oqvist_extraction-based_2016",
+                "bertolino_learning--rank_2020",
+                "greca_comparing_2022"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "End-to-end time, combining measuring time, execution time and testing time. Due to this, it is a measure of both efficiency and effectiveness."
+    },
+    {
+        "key": "memory_usage",
+        "type": "metric",
+        "category": "Efficiency",
+        "name": "Memory usage",
+        "papers": {
+            "tcp": [
+                "wang_enhancing_2016"
+            ],
+            "tcs": [
+                "hirzel_graph-walk-based_2016"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Measures the amount of memory used by the tool."
+    },
+    {
+        "key": "scalability",
+        "type": "metric",
+        "category": "Efficiency",
+        "name": "Scalability",
+        "papers": {
+            "tcp": [
+                "miranda_fast_2018",
+                "yaraghi_scalable_2022"
+            ],
+            "tcs": [],
+            "tsr": [
+                "cruciani_scalable_2019"
+            ],
+            "tsa": []
+        },
+        "description": "How well the tool performs on subjects of different sizes."
+    },
+    {
+        "key": "measuring_time_cost",
+        "type": "metric",
+        "category": "Efficiency",
+        "name": "Measuring time/cost",
+        "papers": {
+            "tcp": [
+                "elsner_empirically_2021"
+            ],
+            "tcs": [
+                "elsner_empirically_2021"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Measure of how costly is the information needed by the technique (e.g. compiling tests, collecting coverage, training a model)."
+    },
+    {
+        "key": "applicability_generality",
+        "type": "metric",
+        "category": "Other",
+        "name": "Applicability/Generality",
+        "papers": {
+            "tcp": [
+                "zhou_beating_2020"
+            ],
+            "tcs": [
+                "xu_requirement-based_2021"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "The variety of SUTs upon which the tool can be applied."
+    },
+    {
+        "key": "diagnosability",
+        "type": "metric",
+        "category": "Other",
+        "name": "Diagnosability",
+        "papers": {
+            "tcp": [
+                "correia_motsd_2019"
+            ],
+            "tcs": [
+                "correia_motsd_2019"
+            ],
+            "tsr": [],
+            "tsa": []
+        },
+        "description": "Cost of diagnosing a fault upon detection."
+    }
+]

@@ -50,7 +50,7 @@ with open("primaries.csv") as input_file:
         i += 1
         paper['date'] = row[i]
 
-        i += 3
+        i += 8
         paper['tcp'] = row[i]
         i += 1
         paper['tcs'] = row[i]
@@ -83,7 +83,17 @@ with open("primaries.csv") as input_file:
         i += 3
         paper['approach'] = row[i]
         i += 1
+        paper['info_approach'] = row[i]
+        i += 1
+        paper['alg_approach'] = row[i]
+        i += 1
         paper['metrics'] = row[i]
+        i += 1
+        paper['effe_metrics'] = row[i]
+        i += 1
+        paper['effi_metrics'] = row[i]
+        i += 1
+        paper['other_metrics'] = row[i]
         i += 1
         paper['open_challenges'] = row[i]
         

@@ -71,25 +71,46 @@ layout: default
       <tr>
         <th>Experiment subject(s)</th>
         <th>Industrial Partner</th>
+        <th>Programming Language</th>
       </tr>
       <tr>
         <td>{{ page.exp_subjects }}</td>
         <td>{{ page.ind_partner }}</td>
+        <td>{{ page.prog_language }}</td>
       </tr>
     </table>
 
     <table>
       <tr>
-        <th>Approach</th>
-        <th>Metrics</th>
+        <th>Effectiveness Metrics</th>
+        <th>Efficiency Metrics</th>
+        <th>Other Metrics</th>
+      </tr>
+      <tr>
+        <td>
+          {{ page.effe_metrics }}
+        </td>
+        <td>
+          {{ page.effi_metrics }}
+        </td>
+        <td>
+          {{ page.other_metrics }}
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th>Information Approach</th>
+        <th>Algorithm Approach</th>
         <th>Open Challenges</th>
       </tr>
       <tr>
         <td>
-          {{ page.approach }}
+          {{ page.info_approach }}
         </td>
         <td>
-          {{ page.metrics }}
+          {{ page.alg_approach }}
         </td>
         <td>
           {{ page.open_challenges }}

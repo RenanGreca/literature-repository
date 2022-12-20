@@ -1,0 +1,12 @@
+{%- for paper_key in include.value -%}
+    {%- capture paper_page_name -%}{{ paper_key }}.md{%- endcapture -%}
+    {%- for paper_page in site.pages -%}
+        {%- if paper_page.name == paper_page_name -%}
+            <a class="author-link" href="{{ paper_page.url | relative_url }}">
+                {{ paper_page.title }}
+            </a>
+        {%- endif -%}
+    {%- endfor -%}
+    {%- assign paper_page = site.pages | where: "name", paper_page -%}
+    {{ paper_page.name }}
+{%- endfor -%}

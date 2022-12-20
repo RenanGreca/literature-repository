@@ -57,6 +57,18 @@ page_gen:
     name_expr: "record['key']"
     title: name
     extension: md
+  - data: metrics
+    template: approach_metric
+    dir: metrics
+    name_expr: "record['key']"
+    title: name
+    extension: md
+  - data: approaches
+    template: approach_metric
+    dir: approaches
+    name_expr: "record['key']"
+    title: name
+    extension: md
   # debug: true
   # - data: 'members'
   #   template: 'profile'
